@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * stock_reserve
-# 
+#
 # Translators:
 # OCA Transbot <transbot@odoo-community.org>, 2016
 # Rudolf Schnapka <rs@techno-flex.de>, 2017
@@ -13,10 +13,10 @@ msgstr ""
 "PO-Revision-Date: 2017-06-29 13:13+0000\n"
 "Last-Translator: Rudolf Schnapka <rs@techno-flex.de>, 2017\n"
 "Language-Team: German (https://www.transifex.com/oca/teams/23907/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: stock_reserve
@@ -29,14 +29,20 @@ msgstr "Anz. Verkäufe"
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation_state
 msgid ""
 "* New: When the stock move is created and not yet confirmed.\n"
-"* Waiting Another Move: This state can be seen when a move is waiting for another one, for example in a chained flow.\n"
-"* Waiting Availability: This state is reached when the procurement resolution is not straight forward. It may need the scheduler to run, a component to me manufactured...\n"
+"* Waiting Another Move: This state can be seen when a move is waiting for "
+"another one, for example in a chained flow.\n"
+"* Waiting Availability: This state is reached when the procurement "
+"resolution is not straight forward. It may need the scheduler to run, a "
+"component to me manufactured...\n"
 "* Available: When products are reserved, it is set to 'Available'.\n"
 "* Done: When the shipment is processed, the state is 'Done'."
 msgstr ""
 "* Neu: Wenn die Lagerbuchung angelegt bzw. noch nicht freigegeben ist.\n"
-"* Warte auf andere Buchung: Dieser Status tritt auf, wenn diese Bewegung auf eine andere wartet, zum Beispiel in verkettetem Vorgängen.\n"
-"* Warte auf Verfügbarkeit: Dieser Status tritt ein, wenn die Beschaffung nicht einfach aufgelöst werden kann, evtl. muss der MRP-Lauf noch abgewartet werden oder eine Komponente hergesetllt werden...\n"
+"* Warte auf andere Buchung: Dieser Status tritt auf, wenn diese Bewegung auf "
+"eine andere wartet, zum Beispiel in verkettetem Vorgängen.\n"
+"* Warte auf Verfügbarkeit: Dieser Status tritt ein, wenn die Beschaffung "
+"nicht einfach aufgelöst werden kann, evtl. muss der MRP-Lauf noch abgewartet "
+"werden oder eine Komponente hergesetllt werden...\n"
 "* Verfügbar: Wenn Produkte reserviert sind, sind sie 'Verfügbar'.\n"
 "* Erledigt: Wenn der Versand abgeschlossen ist, wird der Status 'Erledigt'."
 
@@ -261,8 +267,8 @@ msgid ""
 "Operations that impact this move for the computation of the remaining "
 "quantities"
 msgstr ""
-"Vorgänge, die diese Umlagerung, bei der Ermittlung der verbleibenden Mengen,"
-" beeinflussen"
+"Vorgänge, die diese Umlagerung, bei der Ermittlung der verbleibenden Mengen, "
+"beeinflussen"
 
 #. module: stock_reserve
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation_partner_id
@@ -481,8 +487,8 @@ msgid ""
 "Sets a location if you produce at a fixed location. This can be a partner "
 "location if you subcontract the manufacturing operations."
 msgstr ""
-"Bestimmt einen Lagerort, wenn Sie an festem Standort fertigen. Dies kann ein"
-" Partnerstandort sein, wenn Sie Fertigungs-Vorgänge in Fremdfertigung "
+"Bestimmt einen Lagerort, wenn Sie an festem Standort fertigen. Dies kann ein "
+"Partnerstandort sein, wenn Sie Fertigungs-Vorgänge in Fremdfertigung "
 "ausführen."
 
 #. module: stock_reserve
@@ -543,8 +549,8 @@ msgid ""
 "Technical field used to depict a restriction on the lot of quants to "
 "consider when marking this move as 'done'"
 msgstr ""
-"Technisches Feld zur Aufnahme von Los-Beschränkungen bei Quanten, wenn diese"
-" Umlagerung als 'erldigt' gekennzeichnet wird."
+"Technisches Feld zur Aufnahme von Los-Beschränkungen bei Quanten, wenn diese "
+"Umlagerung als 'erldigt' gekennzeichnet wird."
 
 #. module: stock_reserve
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation_restrict_partner_id
