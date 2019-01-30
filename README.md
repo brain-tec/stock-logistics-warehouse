@@ -33,7 +33,7 @@ addon | version | summary
 [stock_account_quant_merge](stock_account_quant_merge/) | 10.0.1.0.0 | extension of 'stock_quant_merge', and adds the cost as a criteria to merge quants.
 [stock_available](stock_available/) | 10.0.1.0.1 | Stock available to promise
 [stock_available_immediately](stock_available_immediately/) | 10.0.1.0.0 | Ignore planned receptions in quantity available to promise
-[stock_available_product_expiry](stock_available_product_expiry/) | 10.0.1.0.2 | Allows to get product availability taking into account lot removal date
+[stock_available_product_expiry](stock_available_product_expiry/) | 10.0.1.0.3 | Allows to get product availability taking into account lot removal date
 [stock_available_sale](stock_available_sale/) | 10.0.1.0.0 | Quotations in quantity available to promise
 [stock_available_unreserved](stock_available_unreserved/) | 10.0.1.0.1 | Quantity of stock available for immediate use
 [stock_change_qty_reason](stock_change_qty_reason/) | 10.0.1.0.0 | Stock Quantity Change Reason
@@ -47,6 +47,7 @@ addon | version | summary
 [stock_inventory_revaluation](stock_inventory_revaluation/) | 10.0.1.1.0 | Introduces inventory revaluation as single point to change the valuation of products.
 [stock_inventory_verification_request](stock_inventory_verification_request/) | 10.0.1.0.0 | Adds the capability to request a Slot Verification when a inventory is Pending to Approve
 [stock_location_lockdown](stock_location_lockdown/) | 10.0.1.0.0 | Prevent to add stock on flagged locations
+[stock_location_restrict_procurement_group](stock_location_restrict_procurement_group/) | 10.0.1.1.0 | Allows to restrict location to a dedicated procurement group (e.g. : For orders waiting delivery)
 [stock_lot_sale_tracking](stock_lot_sale_tracking/) | 10.0.1.0.0 | This addon allows to retrieve all customer deliveries impacted by a lot
 [stock_mts_mto_rule](stock_mts_mto_rule/) | 10.0.1.0.1 | Add a MTS+MTO route
 [stock_operation_package_mandatory](stock_operation_package_mandatory/) | 10.0.1.0.0 | Makes destination package mandatory on stock pack operations
