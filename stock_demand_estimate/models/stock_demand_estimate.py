@@ -24,7 +24,7 @@ class StockDemandEstimate(models.Model):
         required=True,
     )
     product_uom = fields.Many2one(
-        comodel_name="product.uom",
+        comodel_name="uom.uom",
         string="Unit of measure",
     )
     location_id = fields.Many2one(
@@ -99,10 +99,8 @@ class StockDemandEstimate(models.Model):
     def get_quantity_by_date_range(self, date_start, date_end):
         """To be used in other modules"""
         # Check if the dates overlap with the period
-        period_date_start = fields.Date.from_string(
-            self.date_range_id.date_start
-        )
-        period_date_end = fields.Date.from_string(self.date_range_id.date_end)
+        period_date_start = self.date_range_id.date_start
+        period_date_end = self.date_range_id.date_end
 
         # We need only the periods that overlap
         # the dates introduced by the user.
