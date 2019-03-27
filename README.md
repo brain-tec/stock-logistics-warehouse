@@ -50,15 +50,15 @@ addon | version | summary
 [stock_location_lockdown](stock_location_lockdown/) | 10.0.1.0.0 | Prevent to add stock on flagged locations
 [stock_location_restrict_procurement_group](stock_location_restrict_procurement_group/) | 10.0.1.1.0 | Allows to restrict location to a dedicated procurement group (e.g. : For orders waiting delivery)
 [stock_lot_sale_tracking](stock_lot_sale_tracking/) | 10.0.1.0.0 | This addon allows to retrieve all customer deliveries impacted by a lot
-[stock_mts_mto_rule](stock_mts_mto_rule/) | 10.0.1.0.1 | Add a MTS+MTO route
+[stock_mts_mto_rule](stock_mts_mto_rule/) | 10.0.1.0.2 | Add a MTS+MTO route
 [stock_operation_package_mandatory](stock_operation_package_mandatory/) | 10.0.1.0.0 | Makes destination package mandatory on stock pack operations
 [stock_orderpoint_automatic_creation](stock_orderpoint_automatic_creation/) | 10.0.1.0.0 | Stock Orderpoint Automatic Creation
 [stock_orderpoint_manual_procurement](stock_orderpoint_manual_procurement/) | 10.0.1.0.0 | Allows to create procurement orders from orderpoints instead of relying only on the scheduler.
 [stock_orderpoint_manual_procurement_uom](stock_orderpoint_manual_procurement_uom/) | 10.0.1.0.0 | Glue module for stock_orderpoint_uom and stock_orderpoint_manual_procurement
-[stock_orderpoint_uom](stock_orderpoint_uom/) | 10.0.1.0.0 | Allows to create procurement orders in the UoM indicated in the orderpoint
+[stock_orderpoint_uom](stock_orderpoint_uom/) | 10.0.1.0.1 | Allows to create procurement orders in the UoM indicated in the orderpoint
 [stock_product_location_sorted_by_qty](stock_product_location_sorted_by_qty/) | 10.0.1.0.0 | In the update wizard of quantities for a product, sort the stock location by quantity
 [stock_putaway_product](stock_putaway_product/) | 10.0.1.0.1 | Set a product location and put-away strategy per product
-[stock_quant_manual_assign](stock_quant_manual_assign/) | 10.0.1.0.0 | Stock - Manual Quant Assignment
+[stock_quant_manual_assign](stock_quant_manual_assign/) | 10.0.1.0.1 | Stock - Manual Quant Assignment
 [stock_quant_merge](stock_quant_merge/) | 10.0.1.0.1 | Stock - Quant merge
 [stock_quant_reserved_qty_uom](stock_quant_reserved_qty_uom/) | 10.0.1.0.0 | Stock Quant Reserved Qty UoM
 [stock_removal_location_by_priority](stock_removal_location_by_priority/) | 10.0.1.0.0 | Establish a removal priority on stock locations.
