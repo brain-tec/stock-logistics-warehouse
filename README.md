@@ -26,14 +26,15 @@ addon | version | summary
 [account_move_line_product](account_move_line_product/) | 10.0.1.0.0 | Displays the product in the journal entries and items
 [account_move_line_stock_info](account_move_line_stock_info/) | 10.0.1.0.0 | Account Move Line Stock Move
 [packaging_uom](packaging_uom/) | 10.0.1.0.1 | Use uom in package
+[packaging_uom_view](packaging_uom_view/) | 10.0.1.0.0 | If purchase is installed along with packaging_uom, there is a duplicate view
 [procurement_auto_create_group](procurement_auto_create_group/) | 10.0.1.0.0 | Allows to configure the system to propose automatically new procurement groups in procurement orders.
-[purchase_packaging](purchase_packaging/) | 10.0.1.0.7 | In purchase, use package
+[purchase_packaging](purchase_packaging/) | 10.0.1.0.8 | In purchase, use package
 [sale_packaging](sale_packaging/) | 10.0.1.0.1 | In sale, use uom's package
 [stock_account_change_product_valuation](stock_account_change_product_valuation/) | 10.0.1.0.0 | Adjusts valuation of the products and quants when the cost method or type of a product changes
 [stock_account_quant_merge](stock_account_quant_merge/) | 10.0.1.0.0 | extension of 'stock_quant_merge', and adds the cost as a criteria to merge quants.
 [stock_available](stock_available/) | 10.0.1.0.1 | Stock available to promise
 [stock_available_immediately](stock_available_immediately/) | 10.0.1.0.0 | Ignore planned receptions in quantity available to promise
-[stock_available_mrp](stock_available_mrp/) | 10.0.1.0.0 | Consider the production potential is available to promise
+[stock_available_mrp](stock_available_mrp/) | 10.0.1.0.1 | Consider the production potential is available to promise
 [stock_available_product_expiry](stock_available_product_expiry/) | 10.0.1.0.3 | Allows to get product availability taking into account lot removal date
 [stock_available_sale](stock_available_sale/) | 10.0.1.0.0 | Quotations in quantity available to promise
 [stock_available_unreserved](stock_available_unreserved/) | 10.0.1.0.1 | Quantity of stock available for immediate use
@@ -57,7 +58,7 @@ addon | version | summary
 [stock_orderpoint_manual_procurement_uom](stock_orderpoint_manual_procurement_uom/) | 10.0.1.0.0 | Glue module for stock_orderpoint_uom and stock_orderpoint_manual_procurement
 [stock_orderpoint_uom](stock_orderpoint_uom/) | 10.0.1.0.1 | Allows to create procurement orders in the UoM indicated in the orderpoint
 [stock_product_location_sorted_by_qty](stock_product_location_sorted_by_qty/) | 10.0.1.0.0 | In the update wizard of quantities for a product, sort the stock location by quantity
-[stock_putaway_product](stock_putaway_product/) | 10.0.1.0.1 | Set a product location and put-away strategy per product
+[stock_putaway_product](stock_putaway_product/) | 10.0.1.1.0 | Set a product location and put-away strategy per product
 [stock_quant_manual_assign](stock_quant_manual_assign/) | 10.0.1.0.1 | Stock - Manual Quant Assignment
 [stock_quant_merge](stock_quant_merge/) | 10.0.1.0.1 | Stock - Quant merge
 [stock_quant_reserved_qty_uom](stock_quant_reserved_qty_uom/) | 10.0.1.0.0 | Stock Quant Reserved Qty UoM
