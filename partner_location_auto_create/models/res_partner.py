@@ -78,7 +78,7 @@ class ResPartner(models.Model):
             'name': self.name,
             'usage': usage,
             'partner_id': self.id,
-            'company_id': self.company_id.id,
+            'company_id': False,
             'location_id': parent.id,
             'main_partner_location': True,
         })

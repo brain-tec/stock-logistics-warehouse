@@ -4,7 +4,7 @@
 
 {
     'name': 'Partner Location Auto Create',
-    'version': '11.0.1.0.0',
+    'version': '11.0.1.0.1',
     'author': 'brain-tec AG, Savoir-faire Linux,Odoo Community Association ('
               'OCA)',
     'category': 'Warehouse',
