@@ -44,7 +44,7 @@ class ResPartner(models.Model):
     def get_main_location(self, usage):
         self.ensure_one()
         return self.location_ids.filtered(
-            lambda l: l.usage == usage and l.main_partner_location)
+            lambda l: l.usage == usage and l.main_partner_location)[:1]
 
     @api.multi
     def _create_main_partner_location(self):
