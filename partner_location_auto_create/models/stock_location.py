@@ -25,7 +25,12 @@ class StockLocation(models.Model):
                     _('The partner %s already has a main location '
                         'of type %s.') % (partner.name, location.usage))
 
-    @api.onchange('partner_id', 'usage')
+    @api.onchange('partner_id', 'usage', 'location_id')
     def _onchange_parent_location(self):
         if self.partner_id:
             self.location_id = self.partner_id.get_main_location(self.usage).id
+        if self.location_id.usage in ('supplier', 'customer'):
+            self.company_id = False
+        else:
+            self.company_id = self.env.user.company_id
+
