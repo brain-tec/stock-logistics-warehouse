@@ -4,7 +4,7 @@
 
 {
     "name": "Move Stock Location",
-    "version": "12.0.1.1.0",
+    "version": "12.0.1.2.0",
     "author": "Julius Network Solutions, "
               "Odoo Community Association (OCA)",
     "summary": "This module allows to move all stock "
@@ -17,6 +17,7 @@
     "category": "Stock",
     "data": [
         'data/stock_quant_view.xml',
+        'views/stock_picking_type_views.xml',
         'wizard/stock_move_location.xml',
     ],
 }
