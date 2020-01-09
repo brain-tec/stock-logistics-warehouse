@@ -9,9 +9,14 @@ setuptools.setup(
     version=version,
     install_requires=[
         'odoo13-addon-account_move_line_product',
+        'odoo13-addon-account_move_line_stock_info',
         'odoo13-addon-stock_available_unreserved',
+        'odoo13-addon-stock_change_qty_reason',
         'odoo13-addon-stock_demand_estimate',
+        'odoo13-addon-stock_inventory_chatter',
+        'odoo13-addon-stock_inventory_exclude_sublocation',
         'odoo13-addon-stock_inventory_lockdown',
+        'odoo13-addon-stock_removal_location_by_priority',
         'odoo13-addon-stock_warehouse_calendar',
     ],
     classifiers=[
