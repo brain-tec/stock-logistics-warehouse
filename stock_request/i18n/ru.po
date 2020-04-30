@@ -130,7 +130,7 @@ msgid "Company"
 msgstr ""
 
 #. module: stock_request
-#: code:addons/stock_request/models/stock_request.py:189
+#: code:addons/stock_request/models/stock_request.py:199
 #, python-format
 msgid "Company must be equal to the order"
 msgstr ""
@@ -217,7 +217,7 @@ msgid "Expected Date"
 msgstr ""
 
 #. module: stock_request
-#: code:addons/stock_request/models/stock_request.py:196
+#: code:addons/stock_request/models/stock_request.py:206
 #, python-format
 msgid "Expected date must be equal to the order"
 msgstr ""
@@ -340,7 +340,7 @@ msgid "Location"
 msgstr ""
 
 #. module: stock_request
-#: code:addons/stock_request/models/stock_request.py:172
+#: code:addons/stock_request/models/stock_request.py:182
 #, python-format
 msgid "Location must be equal to the order"
 msgstr ""
@@ -450,13 +450,13 @@ msgid "Number of unread messages"
 msgstr ""
 
 #. module: stock_request
-#: code:addons/stock_request/models/stock_request_order.py:267
+#: code:addons/stock_request/models/stock_request_order.py:265
 #, python-format
 msgid "Only orders on draft state can be unlinked"
 msgstr ""
 
 #. module: stock_request
-#: code:addons/stock_request/models/stock_request.py:334
+#: code:addons/stock_request/models/stock_request.py:353
 #, python-format
 msgid "Only requests on draft state can be unlinked"
 msgstr ""
@@ -510,7 +510,7 @@ msgid "Procurement Group"
 msgstr ""
 
 #. module: stock_request
-#: code:addons/stock_request/models/stock_request.py:182
+#: code:addons/stock_request/models/stock_request.py:192
 #, python-format
 msgid "Procurement group must be equal to the order"
 msgstr ""
@@ -539,6 +539,11 @@ msgid "Purchases"
 msgstr ""
 
 #. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__qty_cancelled
+msgid "Qty Cancelled"
+msgstr ""
+
+#. module: stock_request
 #: model:ir.model.fields,field_description:stock_request.field_stock_request__qty_done
 msgid "Qty Done"
 msgstr ""
@@ -552,6 +557,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_request.field_stock_request__product_uom_qty
 #: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract__product_uom_qty
 msgid "Quantity"
+msgstr ""
+
+#. module: stock_request
+#: model:ir.model.fields,help:stock_request.field_stock_request__qty_cancelled
+msgid "Quantity cancelled"
 msgstr ""
 
 #. module: stock_request
@@ -638,7 +648,7 @@ msgid "Requested by"
 msgstr ""
 
 #. module: stock_request
-#: code:addons/stock_request/models/stock_request.py:158
+#: code:addons/stock_request/models/stock_request.py:168
 #, python-format
 msgid "Requested by must be equal to the order"
 msgstr ""
@@ -834,13 +844,13 @@ msgstr ""
 
 #. module: stock_request
 #: code:addons/stock_request/models/stock_move.py:38
-#: code:addons/stock_request/models/stock_request_order.py:284
+#: code:addons/stock_request/models/stock_request_order.py:282
 #, python-format
 msgid "The company of the stock request must match with that of the location."
 msgstr ""
 
 #. module: stock_request
-#: code:addons/stock_request/models/stock_request_order.py:275
+#: code:addons/stock_request/models/stock_request_order.py:273
 #, python-format
 msgid "The company of the stock request must match with that of the warehouse."
 msgstr ""
@@ -854,13 +864,13 @@ msgid ""
 msgstr ""
 
 #. module: stock_request
-#: code:addons/stock_request/models/stock_request.py:206
+#: code:addons/stock_request/models/stock_request.py:216
 #, python-format
 msgid "The picking policy must be equal to the order"
 msgstr ""
 
 #. module: stock_request
-#: code:addons/stock_request/models/stock_request_order.py:293
+#: code:addons/stock_request/models/stock_request_order.py:291
 #, python-format
 msgid "This action only works in the context of products"
 msgstr ""
@@ -884,7 +894,7 @@ msgid "Transfers"
 msgstr ""
 
 #. module: stock_request
-#: code:addons/stock_request/models/stock_request_order.py:314
+#: code:addons/stock_request/models/stock_request_order.py:312
 #, python-format
 msgid ""
 "Unfortunately it seems you do not have the necessary rights for creating "
@@ -930,7 +940,7 @@ msgid "Warehouse"
 msgstr ""
 
 #. module: stock_request
-#: code:addons/stock_request/models/stock_request.py:165
+#: code:addons/stock_request/models/stock_request.py:175
 #, python-format
 msgid "Warehouse must be equal to the order"
 msgstr ""
