@@ -35,7 +35,7 @@ class StockMoveLine(models.Model):
 
     @api.model
     def create(self, vals):
-        move = self.env['stock.move'].browse(vals['move_id'])
+        move = self.env['stock.move'].browse(vals.get('move_id', False))
         if move.secondary_uom_id:
             uom = self.env['uom.uom'].browse(vals['product_uom_id'])
             factor = move.secondary_uom_id.factor * uom.factor
@@ -43,7 +43,7 @@ class StockMoveLine(models.Model):
                 'product_uom_qty', vals.get('qty_done', 0.0))
             qty = float_round(
                 move_line_qty / (factor or 1.0),
-                precision_rounding=move.secondary_uom_id.uom_id.factor
+                precision_rounding=move.secondary_uom_id.uom_id.rounding
             )
             vals.update({
                 'secondary_uom_qty': qty,
