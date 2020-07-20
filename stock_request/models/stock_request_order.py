@@ -4,12 +4,17 @@
 from odoo import api, fields, models, _
 from odoo.exceptions import UserError, ValidationError, AccessError
 
+REQUEST_STATES = [
+    ('draft', 'Draft'),
+    ('open', 'In progress'),
+    ('done', 'Done'),
+    ('cancel', 'Cancelled')]
+
 
 class StockRequestOrder(models.Model):
     _name = 'stock.request.order'
     _description = 'Stock Request Order'
     _inherit = ['mail.thread', 'mail.activity.mixin']
-    _order = 'id desc'
 
     @api.model
     def default_get(self, fields):
@@ -23,12 +28,6 @@ class StockRequestOrder(models.Model):
             res['location_id'] = warehouse.lot_stock_id.id
         return res
 
-    def __get_request_order_states(self):
-        return self.env['stock.request']._get_request_states()
-
-    def _get_request_order_states(self):
-        return self.__get_request_order_states()
-
     def _get_default_requested_by(self):
         return self.env['res.users'].browse(self.env.uid)
 
@@ -36,11 +35,10 @@ class StockRequestOrder(models.Model):
         'Name', copy=False, required=True, readonly=True,
         states={'draft': [('readonly', False)]},
         default='/')
-    state = fields.Selection(
-        selection=_get_request_order_states,
-        string='Status', copy=False, default='draft', index=True,
-        readonly=True, track_visibility='onchange',
-    )
+    state = fields.Selection(selection=REQUEST_STATES, string='Status',
+                             copy=False, default='draft', index=True,
+                             readonly=True, track_visibility='onchange',
+                             )
     requested_by = fields.Many2one(
         'res.users', 'Requested by', required=True,
         track_visibility='onchange',
@@ -101,7 +99,6 @@ class StockRequestOrder(models.Model):
     stock_request_ids = fields.One2many(
         'stock.request',
         inverse_name='order_id',
-        copy=True,
     )
     stock_request_count = fields.Integer(
         string='Stock requests',
@@ -201,28 +198,30 @@ class StockRequestOrder(models.Model):
 
     @api.multi
     def action_confirm(self):
-        self.mapped('stock_request_ids').action_confirm()
-        self.write({'state': 'open'})
+        for line in self.stock_request_ids:
+            line.action_confirm()
+        self.state = 'open'
         return True
 
     def action_draft(self):
-        self.mapped('stock_request_ids').action_draft()
-        self.write({'state': 'draft'})
+        for line in self.stock_request_ids:
+            line.action_draft()
+        self.state = 'draft'
         return True
 
     def action_cancel(self):
-        self.mapped('stock_request_ids').action_cancel()
-        self.write({'state': 'cancel'})
+        for line in self.stock_request_ids:
+            line.action_cancel()
+        self.state = 'cancel'
         return True
 
     def action_done(self):
-        self.write({'state': 'done'})
+        self.state = 'done'
         return True
 
     def check_done(self):
-        for rec in self:
-            if not rec.stock_request_ids.filtered(lambda r: r.state != 'done'):
-                rec.action_done()
+        if not self.stock_request_ids.filtered(lambda r: r.state != 'done'):
+            self.action_done()
         return
 
     @api.multi
@@ -301,7 +300,7 @@ class StockRequestOrder(models.Model):
                 stock_request_ids=[(0, 0, dict(
                     product_id=product.id,
                     product_uom_id=product.uom_id.id,
-                    product_uom_qty=1.0,
+                    product_uom_qty=0.0,
                     expected_date=expected,
                 )) for product in products]
             ))

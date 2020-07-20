@@ -1,2 +1,1 @@
-* Jordi Ballester <jordi.ballester@eficent.com>
-* Lois Rilo <lois.rilo@eficent>
+* Jordi Ballester (EFICENT) <jordi.ballester@eficent.com>.
