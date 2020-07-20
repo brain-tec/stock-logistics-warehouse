@@ -17,25 +17,44 @@ class StockRequest(models.Model):
     _name = "stock.request"
     _description = "Stock Request"
     _inherit = 'stock.request.abstract'
+    _order = 'id desc'
+
+    def __get_request_states(self):
+        return REQUEST_STATES
+
+    def _get_request_states(self):
+        return self.__get_request_states()
 
     def _get_default_requested_by(self):
         return self.env['res.users'].browse(self.env.uid)
 
+    @staticmethod
+    def _get_expected_date():
+        return fields.Datetime.now()
+
+    def _get_default_expected_date(self):
+        if self.order_id:
+            res = self.order_id.expected_date
+        else:
+            res = self._get_expected_date()
+        return res
+
     name = fields.Char(
         states={'draft': [('readonly', False)]}
     )
-    state = fields.Selection(selection=REQUEST_STATES, string='Status',
-                             copy=False, default='draft', index=True,
-                             readonly=True, track_visibility='onchange',
-                             )
+    state = fields.Selection(
+        selection=_get_request_states, string='Status',
+        copy=False, default='draft', index=True,
+        readonly=True, track_visibility='onchange',
+    )
     requested_by = fields.Many2one(
         'res.users', 'Requested by', required=True,
         track_visibility='onchange',
         default=lambda s: s._get_default_requested_by(),
     )
     expected_date = fields.Datetime(
-        'Expected Date', default=fields.Datetime.now, index=True,
-        required=True, readonly=True,
+        'Expected Date', default=lambda s: s._get_default_expected_date(),
+        index=True, required=True, readonly=True,
         states={'draft': [('readonly', False)]},
         help="Date when you expect to receive the goods.",
     )
@@ -63,6 +82,11 @@ class StockRequest(models.Model):
         'Qty Done', digits=dp.get_precision('Product Unit of Measure'),
         readonly=True, compute='_compute_qty', store=True,
         help="Quantity completed",
+    )
+    qty_cancelled = fields.Float(
+        'Qty Cancelled', digits=dp.get_precision('Product Unit of Measure'),
+        readonly=True, compute='_compute_qty', store=True,
+        help="Quantity cancelled",
     )
     picking_count = fields.Integer(string='Delivery Orders',
                                    compute='_compute_picking_ids',
@@ -105,12 +129,13 @@ class StockRequest(models.Model):
          'Stock Request name must be unique'),
     ]
 
-    @api.depends('allocation_ids')
+    @api.depends('allocation_ids', 'allocation_ids.stock_move_id')
     def _compute_move_ids(self):
         for request in self:
             request.move_ids = request.allocation_ids.mapped('stock_move_id')
 
-    @api.depends('allocation_ids')
+    @api.depends('allocation_ids', 'allocation_ids.stock_move_id',
+                 'allocation_ids.stock_move_id.picking_id')
     def _compute_picking_ids(self):
         for request in self:
             request.picking_count = 0
@@ -127,11 +152,15 @@ class StockRequest(models.Model):
             done_qty = sum(request.allocation_ids.mapped(
                 'allocated_product_qty'))
             open_qty = sum(request.allocation_ids.mapped('open_product_qty'))
-            request.qty_done = request.product_id.uom_id._compute_quantity(
+            uom = request.product_id.uom_id
+            request.qty_done = uom._compute_quantity(
                 done_qty, request.product_uom_id)
-            request.qty_in_progress = \
-                request.product_id.uom_id._compute_quantity(
-                    open_qty, request.product_uom_id)
+            request.qty_in_progress = uom._compute_quantity(
+                open_qty, request.product_uom_id)
+            request.qty_cancelled = max(0, uom._compute_quantity(
+                request.product_qty - done_qty - open_qty,
+                request.product_uom_id
+            )) if request.allocation_ids else 0
 
     @api.constrains('order_id', 'requested_by')
     def check_order_requested_by(self):
@@ -191,7 +220,7 @@ class StockRequest(models.Model):
     @api.multi
     def _action_confirm(self):
         self._action_launch_procurement_rule()
-        self.state = 'open'
+        self.write({'state': 'open'})
 
     @api.multi
     def action_confirm(self):
@@ -199,18 +228,17 @@ class StockRequest(models.Model):
         return True
 
     def action_draft(self):
-        self.state = 'draft'
+        self.write({'state': 'draft'})
         return True
 
     def action_cancel(self):
         self.sudo().mapped('move_ids')._action_cancel()
-        self.state = 'cancel'
+        self.write({'state': 'cancel'})
         return True
 
     def action_done(self):
-        self.state = 'done'
-        if self.order_id:
-            self.order_id.check_done()
+        self.write({'state': 'done'})
+        self.mapped('order_id').check_done()
         return True
 
     def check_done(self):
@@ -224,7 +252,17 @@ class StockRequest(models.Model):
             if float_compare(qty_done, request.product_uom_qty,
                              precision_digits=precision) >= 0:
                 request.action_done()
+            elif request._check_done_allocation():
+                request.action_done()
         return True
+
+    def _check_done_allocation(self):
+        precision = self.env['decimal.precision'].precision_get(
+            'Product Unit of Measure')
+        self.ensure_one()
+        return self.allocation_ids and float_compare(
+            self.qty_cancelled, 0, precision_digits=precision
+        ) > 0
 
     def _prepare_procurement_values(self, group_id=False):
 
@@ -243,6 +281,10 @@ class StockRequest(models.Model):
             'stock_request_id': self.id,
         }
 
+    def _skip_procurement(self):
+        return self.state != 'draft' or \
+            self.product_id.type not in ('consu', 'product')
+
     @api.multi
     def _action_launch_procurement_rule(self):
         """
@@ -256,10 +298,7 @@ class StockRequest(models.Model):
             'Product Unit of Measure')
         errors = []
         for request in self:
-            if (
-                request.state != 'draft' or
-                request.product_id.type not in ('consu', 'product')
-            ):
+            if request._skip_procurement():
                 continue
             qty = 0.0
             for move in request.move_ids.filtered(
