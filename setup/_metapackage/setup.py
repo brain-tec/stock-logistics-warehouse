@@ -10,6 +10,7 @@ setuptools.setup(
     install_requires=[
         'odoo13-addon-account_move_line_product',
         'odoo13-addon-account_move_line_stock_info',
+        'odoo13-addon-procurement_auto_create_group',
         'odoo13-addon-scrap_reason_code',
         'odoo13-addon-stock_account_change_qty_reason',
         'odoo13-addon-stock_available',
@@ -44,6 +45,7 @@ setuptools.setup(
         'odoo13-addon-stock_removal_location_by_priority',
         'odoo13-addon-stock_request',
         'odoo13-addon-stock_request_kanban',
+        'odoo13-addon-stock_request_mrp',
         'odoo13-addon-stock_request_purchase',
         'odoo13-addon-stock_request_tier_validation',
         'odoo13-addon-stock_reserve_rule',
