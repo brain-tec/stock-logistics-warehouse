@@ -1,9 +1,10 @@
 # Copyright 2018 Tecnativa - Sergio Teruel
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
-from odoo.tests import SavepointCase
+from odoo.tests import SavepointCase, tagged
 from odoo.tests.common import Form
 
 
+@tagged('post_install', '-at_install')
 class TestProductSecondaryUnit(SavepointCase):
     at_install = False
     post_install = True
