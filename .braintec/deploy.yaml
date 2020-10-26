@@ -1,0 +1,60 @@
+git_repositories:
+  - repository: git@github.com:brain-tec/odoo.git
+    branch: 12.0
+    commitortag: 937bdef9d15862f1ffdbfacc5ef201b3b1cc88ab
+  - repository: git@github.com:brain-tec/enterprise.git
+    branch: 12.0
+    commitortag: 3e435b862c4469a4b2782ec30b8136081609d7d4
+  - repository: git@github.com:brain-tec/stock-logistics-warehouse.git
+    branch: 12.0
+    mainrepo: True
+
+  # Content of the oca_dependencies.txt, recursively.
+  - repository: git@github.com:brain-tec/account-analytic.git
+    branch: 12.0
+  - repository: git@github.com:brain-tec/product-attribute.git
+    branch: 12.0
+  - repository: git@github.com:brain-tec/server-ux.git
+    branch: 12.0
+  - repository: git@github.com:brain-tec/web.git
+    branch: 12.0
+  - repository: git@github.com:brain-tec/account-financial-tools.git
+    branch: 12.0
+  - repository: git@github.com:brain-tec/purchase-workflow.git
+    branch: 12.0
+  - repository: git@github.com:brain-tec/server-tools.git
+    branch: 12.0
+  - repository: git@github.com:brain-tec/queue.git
+    branch: 12.0
+  - repository: git@github.com:brain-tec/account-invoicing.git
+    branch: 12.0
+  - repository: git@github.com:brain-tec/stock-logistics-workflow.git
+    branch: 12.0
+  - repository: git@github.com:brain-tec/storage.git
+    branch: 12.0
+  - repository: git@github.com:brain-tec/partner-contact.git
+    branch: 12.0
+  - repository: git@github.com:brain-tec/brand.git
+    branch: 12.0
+  - repository: git@github.com:brain-tec/server-backend.git
+    branch: 12.0
+  - repository: git@github.com:brain-tec/contract.git
+    branch: 12.0
+  - repository: git@github.com:brain-tec/bank-payment.git
+    branch: 12.0
+  - repository: git@github.com:brain-tec/field-service.git
+    branch: 12.0
+  - repository: git@github.com:brain-tec/sale-reporting.git
+    branch: 12.0
+  - repository: git@github.com:brain-tec/account-closing.git
+    branch: 12.0
+  - repository: git@github.com:brain-tec/sale-workflow.git
+    branch: 12.0
+  - repository: git@github.com:brain-tec/account-payment.git
+    branch: 12.0
+  - repository: git@github.com:brain-tec/account-invoice-reporting.git
+    branch: 12.0
+  - repository: git@github.com:brain-tec/currency.git
+    branch: 12.0
+
+postgres: 10.0
