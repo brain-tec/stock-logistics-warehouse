@@ -62,7 +62,9 @@ git_repositories:
     branch: 12.0
   - repository: git@github.com:brain-tec/server-env.git
     branch: 12.0
-  - repository: git@github.com:brain-tec/delivery-carrier.git
+
+  # At the moment of creating this, the name in OCA is delivery-carrier, but in our fork is carrier-delivery.
+  - repository: git@github.com:brain-tec/carrier-delivery.git
     branch: 12.0
   - repository: git@github.com:brain-tec/stock-logistics-barcode.git
     branch: 12.0
