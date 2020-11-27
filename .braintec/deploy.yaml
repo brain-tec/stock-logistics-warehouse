@@ -1,10 +1,10 @@
 git_repositories:
   - repository: git@github.com:brain-tec/odoo.git
     branch: 12.0
-    commitortag: 937bdef9d15862f1ffdbfacc5ef201b3b1cc88ab
+    commitortag: c623809abde3d12273362eb2675e80299225e1d5
   - repository: git@github.com:brain-tec/enterprise.git
     branch: 12.0
-    commitortag: 3e435b862c4469a4b2782ec30b8136081609d7d4
+    commitortag: b5b0e85492f24c6f9b851bc275528e880cf74ede
   - repository: git@github.com:brain-tec/stock-logistics-warehouse.git
     branch: 12.0
     mainrepo: True
