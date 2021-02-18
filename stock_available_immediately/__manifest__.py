@@ -10,7 +10,7 @@
     "depends": ["stock_available"],
     "website": "https://github.com/OCA/stock-logistics-warehouse",
     "author": "Camptocamp,Sodexis,Odoo Community Association (OCA),"
-              "Sergio Díaz,brain-tec AG",
+    "Sergio Díaz,brain-tec AG",
     "license": "AGPL-3",
     "category": "Hidden",
     "installable": True,
