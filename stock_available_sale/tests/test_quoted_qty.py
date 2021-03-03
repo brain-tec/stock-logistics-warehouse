@@ -5,60 +5,59 @@
 from odoo.tests import common
 
 
-class TestQuotedQty(common.SavepointCase):
+class TestQuotedQty(common.TransactionCase):
     """Test the computation of the quoted quantity"""
 
-    @classmethod
-    def setUpClass(cls):
-        super(TestQuotedQty, cls).setUpClass()
-        cls.product_tmpl = cls.env['product.template'].create({
+    def setUp(self):
+        super(TestQuotedQty, self).setUp()
+        self.product_tmpl = self.env['product.template'].create({
             'name': 'Test product template',
         })
-        cls.uom_cat = cls.env['uom.category'].create({
+        self.uom_cat = self.env['uom.category'].create({
             'name': 'Coolness',
         })
-        cls.uom = cls.env['uom.uom'].create({
+        self.uom = self.env['uom.uom'].create({
             'name': 'odoos',
-            'category_id': cls.uom_cat.id,
+            'category_id': self.uom_cat.id,
         })
-        cls.product1 = cls.env['product.product'].create({
+        self.product1 = self.env['product.product'].create({
             'name': 'Test variant 1',
             'standard_price': 1.0,
             'type': 'product',
-            'uom_id': cls.uom.id,
-            'uom_po_id': cls.uom.id,
+            'uom_id': self.uom.id,
+            'uom_po_id': self.uom.id,
             'default_code': 'V01',
-            'product_tmpl_id': cls.product_tmpl.id,
+            'product_tmpl_id': self.product_tmpl.id,
         })
-        cls.product2 = cls.env['product.product'].create({
+        self.product2 = self.env['product.product'].create({
             'name': 'Test variant 2',
             'standard_price': 1.0,
             'type': 'product',
-            'uom_id': cls.uom.id,
-            'uom_po_id': cls.uom.id,
+            'uom_id': self.uom.id,
+            'uom_po_id': self.uom.id,
             'default_code': 'V02',
-            'product_tmpl_id': cls.product_tmpl.id,
+            'product_tmpl_id': self.product_tmpl.id,
         })
-        cls.wh_main = cls.env['stock.warehouse'].create({
+        self.wh_main = self.env['stock.warehouse'].create({
             'name': 'Main Test Warehouse',
             'code': 'MTESTW'
         })
-        cls.wh_shop = cls.env['stock.warehouse'].create({
+        self.wh_shop = self.env['stock.warehouse'].create({
             'name': 'Secondary Test Warehouse',
             'code': 'STESTW',
         })
-        cls.partner = cls.env['res.partner'].create({
+        self.partner = self.env['res.partner'].create({
             'name': 'Mr. Odoo',
         })
         #  Record the initial quantity available for sale
-        cls.initial_usable_qty = cls.product1.immediately_usable_qty
+        self.initial_usable_qty = self.product1.immediately_usable_qty
         #  Create a UoM in the category of PCE
-        cls.thousand = cls.env['uom.uom'].create({
+        self.thousand = self.env['uom.uom'].create({
             'name': 'Thousand',
             'factor': 0.001,
             'rounding': 0.001,
             'uom_type': 'bigger',
-            'category_id': cls.uom_cat.id,
+            'category_id': self.uom_cat.id,
         })
 
     def assertinmediatelyusableqty(self, record, qty, msg):
