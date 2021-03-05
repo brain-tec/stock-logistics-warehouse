@@ -11,8 +11,17 @@ class TestQuotedQty(common.SavepointCase):
     @classmethod
     def setUpClass(cls):
         super(TestQuotedQty, cls).setUpClass()
+        cls.prod_att_1 = cls.env['product.attribute'].create({'name': 'Color'})
+        cls.prod_attr1_v1 = cls.env['product.attribute.value'].create(
+            {'name': 'red', 'attribute_id': cls.prod_att_1.id, 'sequence': 1})
+        cls.prod_attr1_v2 = cls.env['product.attribute.value'].create(
+            {'name': 'blue', 'attribute_id': cls.prod_att_1.id, 'sequence': 2})
         cls.product_tmpl = cls.env['product.template'].create({
             'name': 'Test product template',
+            'attribute_line_ids': [(0, 0, {
+                'attribute_id': cls.prod_att_1.id,
+                'value_ids': [(6, 0, [cls.prod_attr1_v1.id, cls.prod_attr1_v2.id])]
+            })]
         })
         cls.uom_cat = cls.env['uom.category'].create({
             'name': 'Coolness',
@@ -21,7 +30,11 @@ class TestQuotedQty(common.SavepointCase):
             'name': 'odoos',
             'category_id': cls.uom_cat.id,
         })
-        cls.product1 = cls.env['product.product'].create({
+        cls.product_tmpl_attr1_v1 = cls.product_tmpl.attribute_line_ids[0].product_template_value_ids[0]
+        cls.product_tmpl_attr1_v2 = cls.product_tmpl.attribute_line_ids[0].product_template_value_ids[1]
+        cls.product1 = cls.product_tmpl._get_variant_for_combination(cls.product_tmpl_attr1_v1)
+        cls.product2 = cls.product_tmpl._get_variant_for_combination(cls.product_tmpl_attr1_v2)
+        cls.product1.write({
             'name': 'Test variant 1',
             'standard_price': 1.0,
             'type': 'product',
@@ -30,7 +43,7 @@ class TestQuotedQty(common.SavepointCase):
             'default_code': 'V01',
             'product_tmpl_id': cls.product_tmpl.id,
         })
-        cls.product2 = cls.env['product.product'].create({
+        cls.product2.write({
             'name': 'Test variant 2',
             'standard_price': 1.0,
             'type': 'product',
@@ -39,6 +52,7 @@ class TestQuotedQty(common.SavepointCase):
             'default_code': 'V02',
             'product_tmpl_id': cls.product_tmpl.id,
         })
+
         cls.wh_main = cls.env['stock.warehouse'].create({
             'name': 'Main Test Warehouse',
             'code': 'MTESTW'
