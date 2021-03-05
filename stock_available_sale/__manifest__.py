@@ -8,6 +8,7 @@
     'license': 'AGPL-3',
     'author': 'Numérigraphe, '
               'Tecnativa, '
+              'brain-tec AG, '
               'Odoo Community Association (OCA)',
     'category': 'Stock',
     'depends': [
