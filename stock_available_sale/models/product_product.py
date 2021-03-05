@@ -3,7 +3,9 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
 from collections import Counter
+
 from odoo import api, fields, models
+from odoo.addons import decimal_precision as dp
 
 
 class ProductProduct(models.Model):
@@ -16,7 +18,7 @@ class ProductProduct(models.Model):
     quoted_qty = fields.Float(
         compute='_compute_quoted_qty',
         type='float',
-        digits='Product Unit of Measure',
+        digits=dp.get_precision('Product Unit of Measure'),
         string='Quoted',
         help="Total quantity of this Product that have been included in "
              "Quotations (Draft Sale Orders).\n"
@@ -29,12 +31,16 @@ class ProductProduct(models.Model):
              "Otherwise, this includes every Quotation.",
     )
 
+    @api.multi
     def _compute_available_quantities_dict(self):
-        res, stock_dict = super(ProductProduct, self)._compute_available_quantities_dict()
+        res, stock_dict = super(ProductProduct,
+                                self)._compute_available_quantities_dict()
         for product in self:
-            res[product.id]['immediately_usable_qty'] -= product.quoted_qty
+            res[product.id]['immediately_usable_qty'] -= \
+                product.quoted_qty
         return res, stock_dict
 
+    @api.multi
     @api.depends('sale_order_line_ids',
                  'sale_order_line_ids.state',
                  'sale_order_line_ids.product_id',

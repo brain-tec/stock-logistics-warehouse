@@ -2,6 +2,7 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
 from odoo import api, fields, models
+from odoo.addons import decimal_precision as dp
 
 
 class ProductTemplate(models.Model):
@@ -10,7 +11,7 @@ class ProductTemplate(models.Model):
     quoted_qty = fields.Float(
         compute='_compute_quoted_qty',
         type='float',
-        digits='Product Unit of Measure',
+        digits=dp.get_precision('Product Unit of Measure'),
         string='Quoted',
         help="Total quantity of this Product that have been included in "
              "Quotations (Draft Sale Orders).\n"
@@ -27,4 +28,5 @@ class ProductTemplate(models.Model):
     def _compute_quoted_qty(self):
         """Compute the quantity using all the variants"""
         for tmpl in self:
-            tmpl.quoted_qty = sum(tmpl.product_variant_ids.mapped('quoted_qty'))
+            tmpl.quoted_qty = sum(
+                tmpl.product_variant_ids.mapped('quoted_qty'))
