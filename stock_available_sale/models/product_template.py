@@ -5,27 +5,26 @@ from odoo import api, fields, models
 
 
 class ProductTemplate(models.Model):
-    _inherit = 'product.template'
+    _inherit = "product.template"
 
     quoted_qty = fields.Float(
-        compute='_compute_quoted_qty',
-        type='float',
-        digits='Product Unit of Measure',
-        string='Quoted',
+        compute="_compute_quoted_qty",
+        type="float",
+        digits="Product Unit of Measure",
+        string="Quoted",
         help="Total quantity of this Product that have been included in "
-             "Quotations (Draft Sale Orders).\n"
-             "In a context with a single Warehouse, this includes "
-             "Quotation processed in this Warehouse.\n"
-             "In a context with a single Stock Location, this includes "
-             "Quotation processed at any Warehouse using "
-             "this Location, or any of its children, as it's Stock "
-             "Location.\n"
-             "Otherwise, this includes every Quotation.",
+        "Quotations (Draft Sale Orders).\n"
+        "In a context with a single Warehouse, this includes "
+        "Quotation processed in this Warehouse.\n"
+        "In a context with a single Stock Location, this includes "
+        "Quotation processed at any Warehouse using "
+        "this Location, or any of its children, as it's Stock "
+        "Location.\n"
+        "Otherwise, this includes every Quotation.",
     )
 
-    @api.depends('product_variant_ids.quoted_qty')
+    @api.depends("product_variant_ids.quoted_qty")
     def _compute_quoted_qty(self):
         """Compute the quantity using all the variants"""
         for tmpl in self:
-            tmpl.quoted_qty = sum(
-                tmpl.product_variant_ids.mapped('quoted_qty'))
+            tmpl.quoted_qty = sum(tmpl.product_variant_ids.mapped("quoted_qty"))
