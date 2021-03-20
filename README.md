@@ -23,11 +23,14 @@ addon | version | summary
 [stock_available](stock_available/) | 14.0.1.0.1 | Stock available to promise
 [stock_available_immediately](stock_available_immediately/) | 14.0.1.0.0 | Ignore planned receptions in quantity available to promise
 [stock_demand_estimate](stock_demand_estimate/) | 14.0.1.1.0 | Allows to create demand estimates.
+[stock_demand_estimate_matrix](stock_demand_estimate_matrix/) | 14.0.1.0.0 | Allows to create demand estimates.
 [stock_free_quantity](stock_free_quantity/) | 14.0.1.0.0 | Stock Free Quantity
+[stock_inventory_preparation_filter](stock_inventory_preparation_filter/) | 14.0.1.0.0 | More filters for inventory adjustments
 [stock_location_children](stock_location_children/) | 14.0.1.0.0 | Add relation between stock location and all its children
 [stock_location_lockdown](stock_location_lockdown/) | 14.0.1.0.0 | Prevent to add stock on locked locations
 [stock_move_location](stock_move_location/) | 14.0.1.0.0 | This module allows to move all stock in a stock location to an other one.
 [stock_packaging_calculator](stock_packaging_calculator/) | 14.0.1.0.1 | Compute product quantity to pick by packaging
+[stock_pull_list](stock_pull_list/) | 14.0.1.0.0 | The pull list checks the stock situation and calculates needed quantities.
 [stock_warehouse_calendar](stock_warehouse_calendar/) | 14.0.1.0.1 | Adds a calendar to the Warehouse
 
 [//]: # (end addons)
