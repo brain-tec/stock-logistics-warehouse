@@ -54,7 +54,6 @@ Authors
 * Camptocamp
 * Sodexis
 * Sergio Díaz
-* brain-tec AG
 
 Contributors
 ~~~~~~~~~~~~
@@ -68,7 +67,7 @@ Contributors
 * `Tecnativa <https://www.tecnativa.com>`_:
 
   * Pedro M. Baeza
-* Raúl Martín <raul.martin@bt-group.com>
+  * Víctor Martínez
 
 Maintainers
 ~~~~~~~~~~~

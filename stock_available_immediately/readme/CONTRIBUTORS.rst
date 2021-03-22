@@ -7,5 +7,5 @@
 * `Tecnativa <https://www.tecnativa.com>`_:
 
   * Pedro M. Baeza
-* Florian da Costa <florian.dacosta@akretion.com>
-* Raul Martin <raul.martin@braintec-group.com>
+  * Víctor Martínez
+  * Florian da Costa <florian.dacosta@akretion.com>
