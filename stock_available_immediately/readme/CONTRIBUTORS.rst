@@ -8,3 +8,4 @@
 
   * Pedro M. Baeza
   * Víctor Martínez
+  * Florian da Costa <florian.dacosta@akretion.com>

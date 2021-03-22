@@ -23,7 +23,7 @@ Ignore planned receptions in quantity available to promise
     :target: https://runbot.odoo-community.org/runbot/153/13.0
     :alt: Try me on Runbot
 
-|badge1| |badge2| |badge3| |badge4| |badge5| 
+|badge1| |badge2| |badge3| |badge4| |badge5|
 
 Normally the quantity available to promise is based on the virtual stock,
 which includes both planned outgoing and incoming goods.
