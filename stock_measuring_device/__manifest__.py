@@ -3,7 +3,7 @@
 {
     "name": "Stock Measuring Device",
     "summary": "Implement a common interface for measuring and weighing devices",
-    "version": "13.0.1.0.0",
+    "version": "13.0.1.1.0",
     "category": "Warehouse",
     "author": "Camptocamp, Odoo Community Association (OCA)",
     "license": "AGPL-3",
@@ -15,7 +15,7 @@
         "product_packaging_dimension",
         "product_packaging_type_required",
         "product_dimension",
-        # For the pop-up message to tell the user to refresh.
+        # To refresh wizard screen or pop-up message on the wizard
         "web_notify",
         "web_ir_actions_act_view_reload",
     ],
