@@ -19,7 +19,9 @@ class TestProductSecondaryUnit(SavepointCase):
         cls.product_uom_unit = cls.env.ref('uom.product_uom_unit')
         ProductAttribute = cls.env['product.attribute']
         ProductAttributeValue = cls.env['product.attribute.value']
-        cls.attribute_color = ProductAttribute.create({'name': 'test_color'})
+        f = Form(ProductAttribute)
+        f.name = 'test_color'
+        cls.attribute_color = f.save()
         cls.attribute_value_white = ProductAttributeValue.create({
             'name': 'test_white',
             'attribute_id': cls.attribute_color.id,
