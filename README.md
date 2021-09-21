@@ -31,6 +31,7 @@ addon | version | maintainers | summary
 [stock_generate_putaway_from_inventory](stock_generate_putaway_from_inventory/) | 14.0.1.0.0 | [![pierrickbrun](https://github.com/pierrickbrun.png?size=30px)](https://github.com/pierrickbrun) [![bealdav](https://github.com/bealdav.png?size=30px)](https://github.com/bealdav) [![sebastienbeau](https://github.com/sebastienbeau.png?size=30px)](https://github.com/sebastienbeau) [![kevinkhao](https://github.com/kevinkhao.png?size=30px)](https://github.com/kevinkhao) | Generate Putaway locations per Product deduced from Inventory
 [stock_helper](stock_helper/) | 14.0.1.0.0 |  | Add methods shared between various stock modules
 [stock_inventory_preparation_filter](stock_inventory_preparation_filter/) | 14.0.1.0.0 |  | More filters for inventory adjustments
+[stock_location_bin_name](stock_location_bin_name/) | 14.0.1.0.0 |  | Compute bin stock location name automatically
 [stock_location_children](stock_location_children/) | 14.0.1.0.0 |  | Add relation between stock location and all its children
 [stock_location_lockdown](stock_location_lockdown/) | 14.0.1.0.0 |  | Prevent to add stock on locked locations
 [stock_location_position](stock_location_position/) | 14.0.1.0.0 |  | Add coordinate attributes on stock location.
@@ -51,6 +52,7 @@ addon | version | maintainers | summary
 [stock_reserve_rule](stock_reserve_rule/) | 14.0.1.0.0 |  | Configure reservation rules by location
 [stock_search_supplierinfo_code](stock_search_supplierinfo_code/) | 14.0.1.0.0 |  | Allows to search for picking from supplierinfo code
 [stock_vertical_lift](stock_vertical_lift/) | 14.0.1.0.0 |  | Provides the core for integration with Vertical Lifts
+[stock_vertical_lift_kardex](stock_vertical_lift_kardex/) | 14.0.1.0.0 |  | Integrate with Kardex Remstar Vertical Lifts
 [stock_warehouse_calendar](stock_warehouse_calendar/) | 14.0.1.0.1 | [![JordiBForgeFlow](https://github.com/JordiBForgeFlow.png?size=30px)](https://github.com/JordiBForgeFlow) | Adds a calendar to the Warehouse
 
 [//]: # (end addons)

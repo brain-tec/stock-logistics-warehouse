@@ -20,6 +20,7 @@ setuptools.setup(
         'odoo14-addon-stock_generate_putaway_from_inventory',
         'odoo14-addon-stock_helper',
         'odoo14-addon-stock_inventory_preparation_filter',
+        'odoo14-addon-stock_location_bin_name',
         'odoo14-addon-stock_location_children',
         'odoo14-addon-stock_location_lockdown',
         'odoo14-addon-stock_location_position',
@@ -40,6 +41,7 @@ setuptools.setup(
         'odoo14-addon-stock_reserve_rule',
         'odoo14-addon-stock_search_supplierinfo_code',
         'odoo14-addon-stock_vertical_lift',
+        'odoo14-addon-stock_vertical_lift_kardex',
         'odoo14-addon-stock_warehouse_calendar',
     ],
     classifiers=[
