@@ -42,7 +42,8 @@ addon | version | maintainers | summary
 [stock_move_common_dest](stock_move_common_dest/) | 14.0.1.0.0 |  | Adds field for common destination moves
 [stock_move_location](stock_move_location/) | 14.0.1.0.0 |  | This module allows to move all stock in a stock location to an other one.
 [stock_orderpoint_move_link](stock_orderpoint_move_link/) | 14.0.1.0.0 |  | Link Reordering rules to stock moves
-[stock_packaging_calculator](stock_packaging_calculator/) | 14.0.1.0.1 |  | Compute product quantity to pick by packaging
+[stock_orderpoint_purchase_link](stock_orderpoint_purchase_link/) | 14.0.1.0.0 |  | Link Reordering rules to purchase orders
+[stock_packaging_calculator](stock_packaging_calculator/) | 14.0.1.1.0 |  | Compute product quantity to pick by packaging
 [stock_picking_cancel_confirm](stock_picking_cancel_confirm/) | 14.0.1.0.1 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Stock Picking Cancel Confirm
 [stock_pull_list](stock_pull_list/) | 14.0.1.0.0 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | The pull list checks the stock situation and calculates needed quantities.
 [stock_putaway_method](stock_putaway_method/) | 14.0.1.0.0 | [![asaunier](https://github.com/asaunier.png?size=30px)](https://github.com/asaunier) | Add the putaway strategy method back, removed from the stock module in Odoo 12
@@ -53,6 +54,7 @@ addon | version | maintainers | summary
 [stock_search_supplierinfo_code](stock_search_supplierinfo_code/) | 14.0.1.0.0 |  | Allows to search for picking from supplierinfo code
 [stock_vertical_lift](stock_vertical_lift/) | 14.0.1.0.0 |  | Provides the core for integration with Vertical Lifts
 [stock_vertical_lift_kardex](stock_vertical_lift_kardex/) | 14.0.1.0.0 |  | Integrate with Kardex Remstar Vertical Lifts
+[stock_vertical_lift_server_env](stock_vertical_lift_server_env/) | 14.0.1.0.0 |  | Server Environment layer for Vertical Lift
 [stock_warehouse_calendar](stock_warehouse_calendar/) | 14.0.1.0.1 | [![JordiBForgeFlow](https://github.com/JordiBForgeFlow.png?size=30px)](https://github.com/JordiBForgeFlow) | Adds a calendar to the Warehouse
 
 [//]: # (end addons)

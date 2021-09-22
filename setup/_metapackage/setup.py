@@ -31,6 +31,7 @@ setuptools.setup(
         'odoo14-addon-stock_move_common_dest',
         'odoo14-addon-stock_move_location',
         'odoo14-addon-stock_orderpoint_move_link',
+        'odoo14-addon-stock_orderpoint_purchase_link',
         'odoo14-addon-stock_packaging_calculator',
         'odoo14-addon-stock_picking_cancel_confirm',
         'odoo14-addon-stock_pull_list',
@@ -42,6 +43,7 @@ setuptools.setup(
         'odoo14-addon-stock_search_supplierinfo_code',
         'odoo14-addon-stock_vertical_lift',
         'odoo14-addon-stock_vertical_lift_kardex',
+        'odoo14-addon-stock_vertical_lift_server_env',
         'odoo14-addon-stock_warehouse_calendar',
     ],
     classifiers=[
