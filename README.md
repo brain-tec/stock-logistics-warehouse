@@ -19,6 +19,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
+[account_move_line_stock_info](account_move_line_stock_info/) | 14.0.1.0.0 |  | Account Move Line Stock Info
 [procurement_auto_create_group](procurement_auto_create_group/) | 14.0.1.1.0 |  | Allows to configure the system to propose automatically new procurement groups during the procurement run.
 [scrap_reason_code](scrap_reason_code/) | 14.0.1.0.0 | [![bodedra](https://github.com/bodedra.png?size=30px)](https://github.com/bodedra) | Reason code for scrapping
 [stock_archive_constraint](stock_archive_constraint/) | 14.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Stock archive constraint
@@ -26,6 +27,7 @@ addon | version | maintainers | summary
 [stock_available_immediately](stock_available_immediately/) | 14.0.1.0.0 |  | Ignore planned receptions in quantity available to promise
 [stock_available_mrp](stock_available_mrp/) | 14.0.1.0.2 |  | Consider the production potential is available to promise
 [stock_available_unreserved](stock_available_unreserved/) | 14.0.1.0.1 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | Quantity of stock available for immediate use
+[stock_cycle_count](stock_cycle_count/) | 14.0.1.1.0 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | Adds the capability to schedule cycle counts in a warehouse through different rules defined by the user.
 [stock_demand_estimate](stock_demand_estimate/) | 14.0.1.1.0 |  | Allows to create demand estimates.
 [stock_demand_estimate_matrix](stock_demand_estimate_matrix/) | 14.0.1.0.0 |  | Allows to create demand estimates.
 [stock_free_quantity](stock_free_quantity/) | 14.0.1.0.0 |  | Stock Free Quantity
