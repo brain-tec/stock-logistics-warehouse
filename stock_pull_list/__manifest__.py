@@ -5,7 +5,7 @@
     "name": "Stock Pull List",
     "summary": "The pull list checks the stock situation and calculates "
     "needed quantities.",
-    "version": "14.0.1.0.0",
+    "version": "14.0.1.1.0",
     "license": "LGPL-3",
     "website": "https://github.com/OCA/stock-logistics-warehouse",
     "author": "ForgeFlow, " "Odoo Community Association (OCA)",
@@ -16,6 +16,7 @@
     "data": [
         "wizards/stock_pull_list_wizard.xml",
         "security/ir.model.access.csv",
+        "data/stock_pull_list_sequence_data.xml",
     ],
     "installable": True,
 }
