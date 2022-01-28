@@ -19,6 +19,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
+[account_move_line_product](account_move_line_product/) | 14.0.1.0.0 |  | Displays the product in the journal entries and items
 [account_move_line_stock_info](account_move_line_stock_info/) | 14.0.1.0.0 |  | Account Move Line Stock Info
 [procurement_auto_create_group](procurement_auto_create_group/) | 14.0.1.2.0 |  | Allows to configure the system to propose automatically new procurement groups during the procurement run.
 [product_quantity_update_force_inventory](product_quantity_update_force_inventory/) | 14.0.1.0.0 |  | Product Quantity Update Force Inventory
@@ -43,6 +44,7 @@ addon | version | maintainers | summary
 [stock_inventory_preparation_filter_pos](stock_inventory_preparation_filter_pos/) | 14.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Add POS category filter on inventory adjustments
 [stock_location_bin_name](stock_location_bin_name/) | 14.0.1.0.0 |  | Compute bin stock location name automatically
 [stock_location_children](stock_location_children/) | 14.0.1.0.0 |  | Add relation between stock location and all its children
+[stock_location_empty](stock_location_empty/) | 14.0.1.0.0 |  | Adds a filter for empty stock location
 [stock_location_last_inventory_date](stock_location_last_inventory_date/) | 14.0.1.0.0 |  | Show the last inventory date for a leaf location
 [stock_location_lockdown](stock_location_lockdown/) | 14.0.1.0.0 |  | Prevent to add stock on locked locations
 [stock_location_position](stock_location_position/) | 14.0.1.0.0 |  | Add coordinate attributes on stock location.
@@ -58,6 +60,8 @@ addon | version | maintainers | summary
 [stock_orderpoint_manual_procurement](stock_orderpoint_manual_procurement/) | 14.0.1.0.1 |  | Allows to create procurement orders from orderpoints instead of relying only on the scheduler.
 [stock_orderpoint_manual_procurement_uom](stock_orderpoint_manual_procurement_uom/) | 14.0.1.0.1 |  | Glue module for stock_orderpoint_uom and stock_orderpoint_manual_procurement
 [stock_orderpoint_move_link](stock_orderpoint_move_link/) | 14.0.1.0.2 |  | Link Reordering rules to stock moves
+[stock_orderpoint_origin](stock_orderpoint_origin/) | 14.0.1.0.0 |  | Link Purchase Orders to the replenishment demand Sales Orders
+[stock_orderpoint_origin_mrp_link](stock_orderpoint_origin_mrp_link/) | 14.0.1.0.0 |  | Link Purchase Orders to the replenishment demand MOs
 [stock_orderpoint_purchase_link](stock_orderpoint_purchase_link/) | 14.0.1.0.0 |  | Link Reordering rules to purchase orders
 [stock_orderpoint_route](stock_orderpoint_route/) | 14.0.1.1.0 |  | Allows to force a route to be used when procuring from orderpoints
 [stock_orderpoint_uom](stock_orderpoint_uom/) | 14.0.1.0.0 |  | Allows to create procurement orders in the UoM indicated in the orderpoint
@@ -67,7 +71,7 @@ addon | version | maintainers | summary
 [stock_product_qty_by_packaging](stock_product_qty_by_packaging/) | 14.0.1.0.0 |  | Compute product quantity to pick by packaging
 [stock_pull_list](stock_pull_list/) | 14.0.1.1.0 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | The pull list checks the stock situation and calculates needed quantities.
 [stock_putaway_method](stock_putaway_method/) | 14.0.1.0.0 | [![asaunier](https://github.com/asaunier.png?size=30px)](https://github.com/asaunier) | Add the putaway strategy method back, removed from the stock module in Odoo 12
-[stock_putaway_product_template](stock_putaway_product_template/) | 14.0.1.0.0 | [![kevinkhao](https://github.com/kevinkhao.png?size=30px)](https://github.com/kevinkhao) [![sebastienbeau](https://github.com/sebastienbeau.png?size=30px)](https://github.com/sebastienbeau) | Add product template in putaway strategies from the product view
+[stock_putaway_product_template](stock_putaway_product_template/) | 14.0.1.1.0 | [![kevinkhao](https://github.com/kevinkhao.png?size=30px)](https://github.com/kevinkhao) [![sebastienbeau](https://github.com/sebastienbeau.png?size=30px)](https://github.com/sebastienbeau) | Add product template in putaway strategies from the product view
 [stock_quant_manual_assign](stock_quant_manual_assign/) | 14.0.1.1.0 |  | Stock - Manual Quant Assignment
 [stock_request](stock_request/) | 14.0.1.0.6 |  | Internal request for stock
 [stock_request_analytic](stock_request_analytic/) | 14.0.1.0.1 |  | Internal request for stock
