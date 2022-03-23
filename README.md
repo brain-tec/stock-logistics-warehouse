@@ -23,6 +23,7 @@ addon | version | maintainers | summary
 [account_move_line_stock_info](account_move_line_stock_info/) | 14.0.1.0.0 |  | Account Move Line Stock Info
 [procurement_auto_create_group](procurement_auto_create_group/) | 14.0.1.2.0 |  | Allows to configure the system to propose automatically new procurement groups during the procurement run.
 [product_quantity_update_force_inventory](product_quantity_update_force_inventory/) | 14.0.1.0.1 |  | Product Quantity Update Force Inventory
+[scrap_location_filter](scrap_location_filter/) | 14.0.1.0.0 | [![opensourceintegrators](https://github.com/opensourceintegrators.png?size=30px)](https://github.com/opensourceintegrators) | Filters scrap location
 [scrap_reason_code](scrap_reason_code/) | 14.0.1.0.0 | [![bodedra](https://github.com/bodedra.png?size=30px)](https://github.com/bodedra) | Reason code for scrapping
 [stock_archive_constraint](stock_archive_constraint/) | 14.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Stock archive constraint
 [stock_available](stock_available/) | 14.0.1.0.3 |  | Stock available to promise
@@ -60,7 +61,7 @@ addon | version | maintainers | summary
 [stock_orderpoint_manual_procurement](stock_orderpoint_manual_procurement/) | 14.0.1.0.2 |  | Allows to create procurement orders from orderpoints instead of relying only on the scheduler.
 [stock_orderpoint_manual_procurement_uom](stock_orderpoint_manual_procurement_uom/) | 14.0.1.0.1 |  | Glue module for stock_orderpoint_uom and stock_orderpoint_manual_procurement
 [stock_orderpoint_move_link](stock_orderpoint_move_link/) | 14.0.1.0.2 |  | Link Reordering rules to stock moves
-[stock_orderpoint_origin](stock_orderpoint_origin/) | 14.0.1.0.0 |  | Link Purchase Orders to the replenishment demand Sales Orders
+[stock_orderpoint_origin](stock_orderpoint_origin/) | 14.0.1.0.1 |  | Link Purchase Orders to the replenishment demand Sales Orders
 [stock_orderpoint_origin_mrp_link](stock_orderpoint_origin_mrp_link/) | 14.0.1.0.0 |  | Link Purchase Orders to the replenishment demand MOs
 [stock_orderpoint_purchase_link](stock_orderpoint_purchase_link/) | 14.0.1.0.0 |  | Link Reordering rules to purchase orders
 [stock_orderpoint_route](stock_orderpoint_route/) | 14.0.1.1.0 |  | Allows to force a route to be used when procuring from orderpoints
