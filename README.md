@@ -28,7 +28,7 @@ addon | version | maintainers | summary
 [stock_archive_constraint](stock_archive_constraint/) | 14.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Stock archive constraint
 [stock_available](stock_available/) | 14.0.1.0.3 |  | Stock available to promise
 [stock_available_immediately](stock_available_immediately/) | 14.0.1.0.0 |  | Ignore planned receptions in quantity available to promise
-[stock_available_mrp](stock_available_mrp/) | 14.0.1.0.4 |  | Consider the production potential is available to promise
+[stock_available_mrp](stock_available_mrp/) | 14.0.1.0.5 |  | Consider the production potential is available to promise
 [stock_available_unreserved](stock_available_unreserved/) | 14.0.1.1.0 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | Quantity of stock available for immediate use
 [stock_change_qty_reason](stock_change_qty_reason/) | 14.0.1.0.1 |  | Stock Quantity Change Reason
 [stock_cycle_count](stock_cycle_count/) | 14.0.1.2.0 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | Adds the capability to schedule cycle counts in a warehouse through different rules defined by the user.
@@ -65,7 +65,7 @@ addon | version | maintainers | summary
 [stock_orderpoint_origin](stock_orderpoint_origin/) | 14.0.1.0.1 |  | Link Purchase Orders to the replenishment demand Sales Orders
 [stock_orderpoint_origin_mrp_link](stock_orderpoint_origin_mrp_link/) | 14.0.1.0.0 |  | Link Purchase Orders to the replenishment demand MOs
 [stock_orderpoint_purchase_link](stock_orderpoint_purchase_link/) | 14.0.1.0.0 |  | Link Reordering rules to purchase orders
-[stock_orderpoint_route](stock_orderpoint_route/) | 14.0.1.1.0 |  | Allows to force a route to be used when procuring from orderpoints
+[stock_orderpoint_route](stock_orderpoint_route/) | 14.0.1.1.1 |  | Allows to force a route to be used when procuring from orderpoints
 [stock_orderpoint_uom](stock_orderpoint_uom/) | 14.0.1.0.0 |  | Allows to create procurement orders in the UoM indicated in the orderpoint
 [stock_packaging_calculator](stock_packaging_calculator/) | 14.0.1.2.0 |  | Compute product quantity to pick by packaging
 [stock_packaging_calculator_packaging_type](stock_packaging_calculator_packaging_type/) | 14.0.1.0.0 |  | Glue module for packaging type
