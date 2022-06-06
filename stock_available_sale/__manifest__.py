@@ -10,6 +10,7 @@
     "Tecnativa, "
     "brain-tec AG, "
     "Odoo Community Association (OCA)",
+    "website": "https://github.com/OCA/stock-logistics-warehouse",
     "category": "Stock",
     "depends": ["stock_available", "sale", "sale_stock"],
     "data": ["views/product_template_view.xml"],
