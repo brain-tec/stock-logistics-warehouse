@@ -36,7 +36,7 @@ addon | version | maintainers | summary
 [procurement_auto_create_group](procurement_auto_create_group/) | 13.0.1.2.0 |  | Allows to configure the system to propose automatically new procurement groups during the procurement run.
 [product_quantity_update_force_inventory](product_quantity_update_force_inventory/) | 13.0.1.0.0 |  | Product Quantity Update Force Inventory
 [sale_automatic_workflow_reserve_sale_stock](sale_automatic_workflow_reserve_sale_stock/) | 13.0.1.0.0 | [![CarlosRoca13](https://github.com/CarlosRoca13.png?size=30px)](https://github.com/CarlosRoca13) | Sale Automatic Workflow: Reserve Sale stock
-[sale_stock_available_info_popup](sale_stock_available_info_popup/) | 13.0.1.0.1 |  | Adds an 'Available to promise' quantity to the popover shown in sale order line that display stock info of the product
+[sale_stock_available_info_popup](sale_stock_available_info_popup/) | 13.0.1.0.2 |  | Adds an 'Available to promise' quantity to the popover shown in sale order line that display stock info of the product
 [scrap_reason_code](scrap_reason_code/) | 13.0.1.1.1 | [![bodedra](https://github.com/bodedra.png?size=30px)](https://github.com/bodedra) | Reason code for scrapping
 [stock_account_change_qty_reason](stock_account_change_qty_reason/) | 13.0.1.0.0 |  | Stock Account Change Quantity Reason
 [stock_account_inventory_discrepancy](stock_account_inventory_discrepancy/) | 13.0.1.0.0 |  | Adds the capability to show the value discrepancy of every line in an inventory and to block the inventory validation when the discrepancy is over a user defined threshold.
@@ -45,7 +45,7 @@ addon | version | maintainers | summary
 [stock_available_immediately](stock_available_immediately/) | 13.0.1.0.0 |  | Ignore planned receptions in quantity available to promise
 [stock_available_mrp](stock_available_mrp/) | 13.0.2.0.0 |  | Consider the production potential is available to promise
 [stock_available_unreserved](stock_available_unreserved/) | 13.0.1.0.1 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | Quantity of stock available for immediate use
-[stock_change_qty_reason](stock_change_qty_reason/) | 13.0.1.1.0 |  | Stock Quantity Change Reason
+[stock_change_qty_reason](stock_change_qty_reason/) | 13.0.2.0.0 |  | Stock Quantity Change Reason
 [stock_cubiscan](stock_cubiscan/) | 13.0.1.1.1 |  | Implement inteface with Cubiscan devices for packaging
 [stock_cycle_count](stock_cycle_count/) | 13.0.1.2.1 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | Adds the capability to schedule cycle counts in a warehouse through different rules defined by the user.
 [stock_demand_estimate](stock_demand_estimate/) | 13.0.1.1.0 |  | Allows to create demand estimates.
