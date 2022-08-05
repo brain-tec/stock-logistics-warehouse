@@ -21,13 +21,14 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
+[account_move_line_product](account_move_line_product/) | 15.0.1.0.1 |  | Displays the product in the journal entries and items
 [account_move_line_stock_info](account_move_line_stock_info/) | 15.0.1.0.0 |  | Account Move Line Stock Info
 [procurement_auto_create_group](procurement_auto_create_group/) | 15.0.1.0.0 |  | Allows to configure the system to propose automatically new procurement groups during the procurement run.
 [stock_available](stock_available/) | 15.0.1.0.0 |  | Stock available to promise
 [stock_available_mrp](stock_available_mrp/) | 15.0.1.0.1 |  | Consider the production potential is available to promise
 [stock_available_unreserved](stock_available_unreserved/) | 15.0.1.0.0 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | Quantity of stock available for immediate use
 [stock_demand_estimate](stock_demand_estimate/) | 15.0.1.0.0 |  | Allows to create demand estimates.
-[stock_demand_estimate_matrix](stock_demand_estimate_matrix/) | 15.0.1.0.0 |  | Allows to create demand estimates.
+[stock_demand_estimate_matrix](stock_demand_estimate_matrix/) | 15.0.1.1.0 |  | Allows to create demand estimates.
 [stock_helper](stock_helper/) | 15.0.1.0.0 |  | Add methods shared between various stock modules
 [stock_location_lockdown](stock_location_lockdown/) | 15.0.1.0.1 |  | Prevent to add stock on locked locations
 [stock_move_location](stock_move_location/) | 15.0.1.0.0 |  | This module allows to move all stock in a stock location to an other one.
@@ -36,9 +37,10 @@ addon | version | maintainers | summary
 [stock_orderpoint_purchase_link](stock_orderpoint_purchase_link/) | 15.0.1.0.0 |  | Link Reordering rules to purchase orders
 [stock_orderpoint_uom](stock_orderpoint_uom/) | 15.0.1.0.0 |  | Allows to create procurement orders in the UoM indicated in the orderpoint
 [stock_packaging_calculator](stock_packaging_calculator/) | 15.0.1.0.0 |  | Compute product quantity to pick by packaging
-[stock_quant_manual_assign](stock_quant_manual_assign/) | 15.0.1.0.0 |  | Stock - Manual Quant Assignment
+[stock_quant_manual_assign](stock_quant_manual_assign/) | 15.0.1.1.1 |  | Stock - Manual Quant Assignment
 [stock_request](stock_request/) | 15.0.1.0.0 |  | Internal request for stock
 [stock_request_purchase](stock_request_purchase/) | 15.0.1.0.1 |  | Internal request for stock
+[stock_secondary_unit](stock_secondary_unit/) | 15.0.1.0.0 |  | Get product quantities in a secondary unit
 [stock_warehouse_calendar](stock_warehouse_calendar/) | 15.0.1.0.0 | [![JordiBForgeFlow](https://github.com/JordiBForgeFlow.png?size=30px)](https://github.com/JordiBForgeFlow) | Adds a calendar to the Warehouse
 
 [//]: # (end addons)
