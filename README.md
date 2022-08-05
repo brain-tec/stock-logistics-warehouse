@@ -65,6 +65,7 @@ addon | version | maintainers | summary
 [stock_location_last_inventory_date](stock_location_last_inventory_date/) | 13.0.1.0.1 |  | Show the last inventory date for a leaf location
 [stock_location_lockdown](stock_location_lockdown/) | 13.0.1.0.1 |  | Prevent to add stock on locked locations
 [stock_location_position](stock_location_position/) | 13.0.1.0.0 |  | Add coordinate attributes on stock location.
+[stock_location_route_description](stock_location_route_description/) | 13.0.1.0.0 |  | Add description field on stock routes.
 [stock_location_tray](stock_location_tray/) | 13.0.1.0.2 |  | Organize a location as a matrix of cells
 [stock_location_zone](stock_location_zone/) | 13.0.1.0.0 |  | Classify locations with zones.
 [stock_lot_filter_available](stock_lot_filter_available/) | 13.0.2.0.0 | [![CarlosRoca13](https://github.com/CarlosRoca13.png?size=30px)](https://github.com/CarlosRoca13) | Allow to filter lots by available on stock
@@ -88,6 +89,7 @@ addon | version | maintainers | summary
 [stock_picking_consolidation_priority](stock_picking_consolidation_priority/) | 13.0.1.0.0 |  | Raise priority of all transfers for a chain when started
 [stock_picking_package_grouped](stock_picking_package_grouped/) | 13.0.1.0.1 |  | Allow create package (put in pack) from pickings depending on grouping criteria.
 [stock_picking_procure_method](stock_picking_procure_method/) | 13.0.1.0.0 |  | Allows to force the procurement method from the picking
+[stock_picking_show_linked](stock_picking_show_linked/) | 13.0.1.0.2 |  | This addon allows to easily access related pickings (in the case of chained routes) through a button in the parent picking view.
 [stock_product_qty_by_packaging](stock_product_qty_by_packaging/) | 13.0.1.1.0 |  | Compute product quantity to pick by packaging
 [stock_production_lot_quantity_tree](stock_production_lot_quantity_tree/) | 13.0.1.0.0 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | Allows to display product quantity field on production lot tree view
 [stock_pull_list](stock_pull_list/) | 13.0.1.0.0 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | The pull list checks the stock situation and calculates needed quantities.
