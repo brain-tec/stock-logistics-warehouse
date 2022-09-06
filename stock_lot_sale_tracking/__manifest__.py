@@ -6,9 +6,9 @@
     'name': 'stock lot sale tracking',
     'summary': 'This addon allows to retrieve all customer '
     'deliveries impacted by a lot',
-    'version': '10.0.1.0.0',
+    'version': '10.0.1.0.1',
     'author': 'ACSONE SA/NV,Odoo Community Association (OCA)',
-    'website': 'https://github.com/OCA/stock-logistics-warehouse/tree/10.0'
+    'website': 'https://github.com/OCA/stock-logistics-warehouse'
                '/stock_lot_sale_tracking',
     'license': 'AGPL-3',
     'category': 'Stock',

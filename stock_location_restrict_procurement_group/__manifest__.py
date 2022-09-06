@@ -7,10 +7,10 @@
     'summary': """
         Allows to restrict location to a dedicated procurement group
         (e.g. : For orders waiting delivery)""",
-    'version': '10.0.1.1.0',
+    'version': '10.0.1.1.1',
     'license': 'AGPL-3',
     'author': 'ACSONE SA/NV,Odoo Community Association (OCA)',
-    'website': 'https://acsone.eu',
+    'website': 'https://github.com/OCA/stock-logistics-warehouse',
     'depends': ['stock'
                 ],
     'data': [

@@ -5,11 +5,12 @@
 
 {
     'name': 'Stock available to promise',
-    'version': '10.0.1.0.1',
+    'version': '10.0.1.0.2',
     "author": "Numérigraphe, Sodexis, Odoo Community Association (OCA)",
     'category': 'Warehouse',
     'depends': ['stock'],
     'license': 'AGPL-3',
+    'website': 'https://github.com/OCA/stock-logistics-warehouse',
     'data': [
         'views/product_template_view.xml',
         'views/product_product_view.xml',

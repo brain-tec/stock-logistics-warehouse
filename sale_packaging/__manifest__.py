@@ -4,11 +4,11 @@
 
 {
     "name": "Sale Packaging",
-    "version": "10.0.1.0.1",
+    "version": "10.0.1.0.2",
     "author": 'ACSONE SA/NV, '
               'Odoo Community Association (OCA)',
     "category": "Warehouse",
-    "website": "http://www.acsone.eu",
+    "website": "https://github.com/OCA/stock-logistics-warehouse",
     'summary': "In sale, use uom's package",
     "depends": [
         "sale_stock",

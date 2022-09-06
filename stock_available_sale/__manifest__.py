@@ -5,12 +5,13 @@
 
 {
     'name': 'Quotations in quantity available to promise',
-    'version': '10.0.1.0.0',
+    'version': '10.0.1.0.1',
     'license': 'AGPL-3',
     'author': 'Numérigraphe, '
               'Tecnativa, '
               'Odoo Community Association (OCA)',
     'category': 'Stock',
+    'website': 'https://github.com/OCA/stock-logistics-warehouse',
     'depends': [
         'stock_available',
         'sale_order_dates',

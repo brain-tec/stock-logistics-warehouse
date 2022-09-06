@@ -8,7 +8,7 @@
 
 {
     "name": "Stock Warehouse Orderpoint Stock Info",
-    "version": "10.0.1.0.0",
+    "version": "10.0.1.0.1",
     "depends": [
         "stock",
     ],
@@ -16,7 +16,7 @@
               "AvanzOSC, "
               "Tecnativa, "
               "Odoo Community Association (OCA)",
-    "website": "http://www.odoomrp.com",
+    "website": "https://github.com/OCA/stock-logistics-warehouse",
     "category": "Warehouse",
     "license": "AGPL-3",
     "data": [

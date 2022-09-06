@@ -3,11 +3,11 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 {
     "name": "Packaging UOM",
-    "version": "10.0.1.0.1",
+    "version": "10.0.1.0.2",
     "author": 'ACSONE SA/NV, '
               'Odoo Community Association (OCA)',
     "category": "Warehouse",
-    "website": "http://www.acsone.eu",
+    "website": "https://github.com/OCA/stock-logistics-warehouse",
     'summary': "Use uom in package",
     "depends": [
         "product",

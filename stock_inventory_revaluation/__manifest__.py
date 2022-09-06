@@ -9,11 +9,11 @@
     "name": "Stock Inventory Revaluation",
     "summary": "Introduces inventory revaluation as single point to change "
                "the valuation of products.",
-    "version": "10.0.1.1.0",
+    "version": "10.0.1.1.1",
     "author": "Eficent Business and IT Consulting Services S.L., "
               "Serpent Consulting Services Pvt. Ltd.,"
               "Odoo Community Association (OCA)",
-    "website": "http://www.eficent.com",
+    "website": "https://github.com/OCA/stock-logistics-warehouse",
     "category": "Warehouse",
     "depends": ["stock_account", "product"],
     "license": "AGPL-3",

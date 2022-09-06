@@ -5,10 +5,10 @@
 {
     "name": "Stock Demand Estimate",
     "summary": "Allows to create demand estimates.",
-    "version": "10.0.1.1.0",
+    "version": "10.0.1.1.1",
     "author": "Eficent, "
               "Odoo Community Association (OCA)",
-    "website": "https://www.odoo-community.org",
+    "website": "https://github.com/OCA/stock-logistics-warehouse",
     "category": "Warehouse Management",
     "depends": ["stock",
                 "web_widget_x2many_2d_matrix",
