@@ -27,7 +27,7 @@ addon | version | maintainers | summary
 [packaging_uom](packaging_uom/) | 10.0.1.0.2 |  | Use uom in package
 [packaging_uom_view](packaging_uom_view/) | 10.0.1.0.1 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | If purchase is installed along with packaging_uom, there is a duplicate view
 [procurement_auto_create_group](procurement_auto_create_group/) | 10.0.1.0.0 |  | Allows to configure the system to propose automatically new procurement groups in procurement orders.
-[purchase_packaging](purchase_packaging/) | 10.0.1.1.1 |  | In purchase, use package
+[purchase_packaging](purchase_packaging/) | 10.0.1.1.2 |  | In purchase, use package
 [sale_packaging](sale_packaging/) | 10.0.1.0.2 |  | In sale, use uom's package
 [stock_account_change_product_valuation](stock_account_change_product_valuation/) | 10.0.1.0.0 |  | Adjusts valuation of the products and quants when the cost method or type of a product changes
 [stock_account_quant_merge](stock_account_quant_merge/) | 10.0.1.0.1 |  | extension of 'stock_quant_merge', and adds the cost as a criteria to merge quants.
@@ -65,7 +65,7 @@ addon | version | maintainers | summary
 [stock_product_location_sorted_by_qty](stock_product_location_sorted_by_qty/) | 10.0.1.0.0 | [![chafique-delli](https://github.com/chafique-delli.png?size=30px)](https://github.com/chafique-delli) | In the update wizard of quantities for a product, sort the stock location by quantity
 [stock_putaway_product](stock_putaway_product/) | 10.0.1.1.1 |  | Set a product location and put-away strategy per product
 [stock_quant_manual_assign](stock_quant_manual_assign/) | 10.0.1.0.2 |  | Stock - Manual Quant Assignment
-[stock_quant_merge](stock_quant_merge/) | 10.0.1.0.1 |  | Stock - Quant merge
+[stock_quant_merge](stock_quant_merge/) | 10.0.1.1.0 |  | Stock - Quant merge
 [stock_quant_reserved_qty_uom](stock_quant_reserved_qty_uom/) | 10.0.1.0.0 |  | Stock Quant Reserved Qty UoM
 [stock_removal_location_by_priority](stock_removal_location_by_priority/) | 10.0.1.0.0 |  | Establish a removal priority on stock locations.
 [stock_reserve](stock_reserve/) | 10.0.1.0.1 |  | Stock reservations on products
