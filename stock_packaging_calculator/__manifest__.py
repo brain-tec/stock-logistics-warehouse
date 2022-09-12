@@ -3,8 +3,8 @@
 {
     "name": "Stock packaging calculator",
     "summary": "Compute product quantity to pick by packaging",
-    "version": "14.0.1.2.0",
-    "development_status": "Alpha",
+    "version": "14.0.1.3.0",
+    "development_status": "Beta",
     "category": "Warehouse Management",
     "website": "https://github.com/OCA/stock-logistics-warehouse",
     "author": "Camptocamp, Odoo Community Association (OCA)",
