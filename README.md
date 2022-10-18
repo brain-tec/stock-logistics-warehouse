@@ -61,6 +61,7 @@ addon | version | maintainers | summary
 [stock_orderpoint_manual_procurement](stock_orderpoint_manual_procurement/) | 10.0.1.0.0 |  | Allows to create procurement orders from orderpoints instead of relying only on the scheduler.
 [stock_orderpoint_manual_procurement_uom](stock_orderpoint_manual_procurement_uom/) | 10.0.1.0.0 |  | Glue module for stock_orderpoint_uom and stock_orderpoint_manual_procurement
 [stock_orderpoint_uom](stock_orderpoint_uom/) | 10.0.1.0.2 |  | Allows to create procurement orders in the UoM indicated in the orderpoint
+[stock_packaging_calculator](stock_packaging_calculator/) | 10.0.1.0.1 |  | Compute product quantity to pick by packaging
 [stock_picking_completion_info](stock_picking_completion_info/) | 10.0.1.1.1 |  | Display on current document completion information according to next operations
 [stock_product_location_sorted_by_qty](stock_product_location_sorted_by_qty/) | 10.0.1.0.0 | [![chafique-delli](https://github.com/chafique-delli.png?size=30px)](https://github.com/chafique-delli) | In the update wizard of quantities for a product, sort the stock location by quantity
 [stock_putaway_product](stock_putaway_product/) | 10.0.1.1.1 |  | Set a product location and put-away strategy per product
@@ -69,7 +70,7 @@ addon | version | maintainers | summary
 [stock_quant_reserved_qty_uom](stock_quant_reserved_qty_uom/) | 10.0.1.0.0 |  | Stock Quant Reserved Qty UoM
 [stock_removal_location_by_priority](stock_removal_location_by_priority/) | 10.0.1.0.0 |  | Establish a removal priority on stock locations.
 [stock_reserve](stock_reserve/) | 10.0.1.0.1 |  | Stock reservations on products
-[stock_valuation_account_manual_adjustment](stock_valuation_account_manual_adjustment/) | 10.0.1.0.0 |  | Shows in the product inventory stock value and the accounting value and allows to reconcile them
+[stock_valuation_account_manual_adjustment](stock_valuation_account_manual_adjustment/) | 10.0.1.1.0 |  | Shows in the product inventory stock value and the accounting value and allows to reconcile them
 [stock_warehouse_orderpoint_stock_info](stock_warehouse_orderpoint_stock_info/) | 10.0.1.0.1 |  | Stock Warehouse Orderpoint Stock Info
 [stock_warehouse_orderpoint_stock_info_unreserved](stock_warehouse_orderpoint_stock_info_unreserved/) | 10.0.1.0.0 |  | Stock Warehouse Orderpoint Stock Info Unreserved
 
