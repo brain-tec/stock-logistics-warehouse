@@ -24,12 +24,13 @@ addon | version | maintainers | summary
 [account_move_line_product](account_move_line_product/) | 15.0.1.0.1 |  | Displays the product in the journal entries and items
 [account_move_line_stock_info](account_move_line_stock_info/) | 15.0.1.0.0 |  | Account Move Line Stock Info
 [procurement_auto_create_group](procurement_auto_create_group/) | 15.0.1.0.0 |  | Allows to configure the system to propose automatically new procurement groups during the procurement run.
+[sale_stock_available_info_popup](sale_stock_available_info_popup/) | 15.0.1.0.0 |  | Adds an 'Available to promise' quantity to the popover shown in sale order line that display stock info of the product
 [stock_archive_constraint](stock_archive_constraint/) | 15.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Stock archive constraint
 [stock_available](stock_available/) | 15.0.1.0.0 |  | Stock available to promise
 [stock_available_mrp](stock_available_mrp/) | 15.0.1.0.1 |  | Consider the production potential is available to promise
 [stock_available_unreserved](stock_available_unreserved/) | 15.0.1.0.0 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | Quantity of stock available for immediate use
-[stock_demand_estimate](stock_demand_estimate/) | 15.0.1.0.0 |  | Allows to create demand estimates.
-[stock_demand_estimate_matrix](stock_demand_estimate_matrix/) | 15.0.1.1.0 |  | Allows to create demand estimates.
+[stock_demand_estimate](stock_demand_estimate/) | 15.0.1.0.1 |  | Allows to create demand estimates.
+[stock_demand_estimate_matrix](stock_demand_estimate_matrix/) | 15.0.1.1.1 |  | Allows to create demand estimates.
 [stock_helper](stock_helper/) | 15.0.1.0.0 |  | Add methods shared between various stock modules
 [stock_location_lockdown](stock_location_lockdown/) | 15.0.1.0.1 |  | Prevent to add stock on locked locations
 [stock_location_route_description](stock_location_route_description/) | 15.0.1.0.0 |  | Add description field on stock routes.
