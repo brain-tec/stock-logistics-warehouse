@@ -21,8 +21,17 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
+[stock_location_product_restriction](stock_location_product_restriction/) | 16.0.1.0.0 | [![lmignon](https://github.com/lmignon.png?size=30px)](https://github.com/lmignon) [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | Prevent to mix different products into the same stock location
+[stock_move_auto_assign](stock_move_auto_assign/) | 16.0.1.0.0 |  | Try to reserve moves when goods enter in a location
 [stock_mts_mto_rule](stock_mts_mto_rule/) | 16.0.1.0.0 |  | Add a MTS+MTO route
-[stock_package_type_button_box](stock_package_type_button_box/) | 16.0.1.0.0 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | This module is a technical module that allows to fill in a button box for Stock Package Type form view
+[stock_warehouse_calendar](stock_warehouse_calendar/) | 16.0.1.0.0 | [![JordiBForgeFlow](https://github.com/JordiBForgeFlow.png?size=30px)](https://github.com/JordiBForgeFlow) | Adds a calendar to the Warehouse
+
+
+Unported addons
+---------------
+addon | version | maintainers | summary
+--- | --- | --- | ---
+[stock_package_type_button_box](stock_package_type_button_box/) | 16.0.1.0.0 (unported) | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | DEPRECATED - This module is a technical module that allows to fill in a button box for Stock Package Type form view
 
 [//]: # (end addons)
 
