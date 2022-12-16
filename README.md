@@ -32,6 +32,7 @@ addon | version | maintainers | summary
 [stock_available_unreserved](stock_available_unreserved/) | 15.0.1.0.0 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | Quantity of stock available for immediate use
 [stock_demand_estimate](stock_demand_estimate/) | 15.0.1.0.1 |  | Allows to create demand estimates.
 [stock_demand_estimate_matrix](stock_demand_estimate_matrix/) | 15.0.1.1.1 |  | Allows to create demand estimates.
+[stock_free_quantity](stock_free_quantity/) | 15.0.1.0.1 |  | Stock Free Quantity
 [stock_helper](stock_helper/) | 15.0.1.0.0 |  | Add methods shared between various stock modules
 [stock_location_lockdown](stock_location_lockdown/) | 15.0.1.0.1 |  | Prevent to add stock on locked locations
 [stock_location_route_description](stock_location_route_description/) | 15.0.1.0.0 |  | Add description field on stock routes.
@@ -45,6 +46,7 @@ addon | version | maintainers | summary
 [stock_putaway_product_template](stock_putaway_product_template/) | 15.0.1.0.1 | [![kevinkhao](https://github.com/kevinkhao.png?size=30px)](https://github.com/kevinkhao) [![sebastienbeau](https://github.com/sebastienbeau.png?size=30px)](https://github.com/sebastienbeau) | Add product template in putaway strategies from the product view
 [stock_quant_manual_assign](stock_quant_manual_assign/) | 15.0.1.2.1 |  | Stock - Manual Quant Assignment
 [stock_request](stock_request/) | 15.0.1.0.3 |  | Internal request for stock
+[stock_request_kanban](stock_request_kanban/) | 15.0.1.0.0 |  | Adds a stock request order, and takes stock requests as lines
 [stock_request_purchase](stock_request_purchase/) | 15.0.1.0.1 |  | Internal request for stock
 [stock_reserve](stock_reserve/) | 15.0.1.0.1 |  | Stock reservations on products
 [stock_secondary_unit](stock_secondary_unit/) | 15.0.1.0.0 |  | Get product quantities in a secondary unit
