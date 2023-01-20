@@ -31,6 +31,7 @@ addon | version | maintainers | summary
 [stock_available_immediately](stock_available_immediately/) | 15.0.1.0.0 |  | Ignore planned receptions in quantity available to promise
 [stock_available_mrp](stock_available_mrp/) | 15.0.1.0.1 |  | Consider the production potential is available to promise
 [stock_available_unreserved](stock_available_unreserved/) | 15.0.1.0.0 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | Quantity of stock available for immediate use
+[stock_change_qty_reason](stock_change_qty_reason/) | 15.0.1.0.0 |  | Stock Quantity Change Reason
 [stock_demand_estimate](stock_demand_estimate/) | 15.0.1.0.1 |  | Allows to create demand estimates.
 [stock_demand_estimate_matrix](stock_demand_estimate_matrix/) | 15.0.1.1.1 |  | Allows to create demand estimates.
 [stock_free_quantity](stock_free_quantity/) | 15.0.1.0.1 |  | Stock Free Quantity
@@ -38,7 +39,7 @@ addon | version | maintainers | summary
 [stock_location_lockdown](stock_location_lockdown/) | 15.0.1.0.1 |  | Prevent to add stock on locked locations
 [stock_location_route_description](stock_location_route_description/) | 15.0.1.0.0 |  | Add description field on stock routes.
 [stock_lot_filter_available](stock_lot_filter_available/) | 15.0.1.0.0 | [![CarlosRoca13](https://github.com/CarlosRoca13.png?size=30px)](https://github.com/CarlosRoca13) | Allow to filter lots by available on stock
-[stock_move_location](stock_move_location/) | 15.0.1.0.2 |  | This module allows to move all stock in a stock location to an other one.
+[stock_move_location](stock_move_location/) | 15.0.1.1.0 |  | This module allows to move all stock in a stock location to an other one.
 [stock_mts_mto_rule](stock_mts_mto_rule/) | 15.0.1.0.1 |  | Add a MTS+MTO route
 [stock_orderpoint_move_link](stock_orderpoint_move_link/) | 15.0.1.0.0 |  | Link Reordering rules to stock moves
 [stock_orderpoint_purchase_link](stock_orderpoint_purchase_link/) | 15.0.1.0.0 |  | Link Reordering rules to purchase orders
