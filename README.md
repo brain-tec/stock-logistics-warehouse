@@ -27,11 +27,13 @@ addon | version | maintainers | summary
 [stock_helper](stock_helper/) | 16.0.1.0.1 |  | Add methods shared between various stock modules
 [stock_location_product_restriction](stock_location_product_restriction/) | 16.0.1.0.0 | [![lmignon](https://github.com/lmignon.png?size=30px)](https://github.com/lmignon) [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | Prevent to mix different products into the same stock location
 [stock_location_zone](stock_location_zone/) | 16.0.1.0.1 |  | Classify locations with zones.
-[stock_move_auto_assign](stock_move_auto_assign/) | 16.0.1.0.1 |  | Try to reserve moves when goods enter in a location
+[stock_move_auto_assign](stock_move_auto_assign/) | 16.0.1.1.0 |  | Try to reserve moves when goods enter in a location
+[stock_move_auto_assign_auto_release](stock_move_auto_assign_auto_release/) | 16.0.1.1.0 |  | Auto release moves after auto assign
 [stock_move_common_dest](stock_move_common_dest/) | 16.0.1.0.1 |  | Adds field for common destination moves
 [stock_move_location](stock_move_location/) | 16.0.1.1.0 |  | This module allows to move all stock in a stock location to an other one.
 [stock_mts_mto_rule](stock_mts_mto_rule/) | 16.0.1.0.0 |  | Add a MTS+MTO route
 [stock_packaging_calculator](stock_packaging_calculator/) | 16.0.1.0.1 |  | Compute product quantity to pick by packaging
+[stock_picking_commercial_partner](stock_picking_commercial_partner/) | 16.0.1.0.0 |  | Add Commercial Partner on the Stock Picking
 [stock_picking_volume](stock_picking_volume/) | 16.0.1.0.0 | [![lmignon](https://github.com/lmignon.png?size=30px)](https://github.com/lmignon) | Compute volume information on stock moves and pickings
 [stock_search_supplierinfo_code](stock_search_supplierinfo_code/) | 16.0.1.0.1 |  | Allows to search for picking from supplierinfo code
 [stock_warehouse_calendar](stock_warehouse_calendar/) | 16.0.1.0.0 | [![JordiBForgeFlow](https://github.com/JordiBForgeFlow.png?size=30px)](https://github.com/JordiBForgeFlow) | Adds a calendar to the Warehouse
