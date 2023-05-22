@@ -90,7 +90,7 @@ addon | version | maintainers | summary
 [stock_putaway_method](stock_putaway_method/) | 14.0.1.0.0 | [![asaunier](https://github.com/asaunier.png?size=30px)](https://github.com/asaunier) | Add the putaway strategy method back, removed from the stock module in Odoo 12
 [stock_putaway_product_template](stock_putaway_product_template/) | 14.0.1.1.0 | [![kevinkhao](https://github.com/kevinkhao.png?size=30px)](https://github.com/kevinkhao) [![sebastienbeau](https://github.com/sebastienbeau.png?size=30px)](https://github.com/sebastienbeau) | Add product template in putaway strategies from the product view
 [stock_quant_manual_assign](stock_quant_manual_assign/) | 14.0.1.3.1 |  | Stock - Manual Quant Assignment
-[stock_quant_reservation_info](stock_quant_reservation_info/) | 14.0.1.0.5 |  | Allows to see the reserved info of Products
+[stock_quant_reservation_info](stock_quant_reservation_info/) | 14.0.1.0.6 |  | Allows to see the reserved info of Products
 [stock_quant_reservation_info_mrp](stock_quant_reservation_info_mrp/) | 14.0.1.1.0 |  | Allows to see the manufacturing order related to the reserved info of Products
 [stock_quant_view_reservation](stock_quant_view_reservation/) | 14.0.1.0.1 |  | Allows to see details of reservations on a quant
 [stock_request](stock_request/) | 14.0.1.6.0 |  | Internal request for stock
@@ -101,7 +101,7 @@ addon | version | maintainers | summary
 [stock_request_mrp](stock_request_mrp/) | 14.0.1.0.2 |  | Manufacturing request for stock
 [stock_request_partner](stock_request_partner/) | 14.0.1.0.1 |  | Allow to define partner in Stock Request
 [stock_request_picking_type](stock_request_picking_type/) | 14.0.1.1.0 | [![max3903](https://github.com/max3903.png?size=30px)](https://github.com/max3903) | Add Stock Requests to the Inventory App
-[stock_request_purchase](stock_request_purchase/) | 14.0.1.0.1 |  | Internal request for stock
+[stock_request_purchase](stock_request_purchase/) | 14.0.1.0.2 |  | Internal request for stock
 [stock_request_submit](stock_request_submit/) | 14.0.1.3.0 |  | Add submit state on Stock Requests
 [stock_request_tier_validation](stock_request_tier_validation/) | 14.0.1.0.0 |  | Extends the functionality of Stock Requests to support a tier validation process.
 [stock_reserve](stock_reserve/) | 14.0.2.0.0 |  | Stock reservations on products
