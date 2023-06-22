@@ -11,6 +11,9 @@
 
 TODO: add repo description.
 
+This project branch exists due to PR https://github.com/OCA/stock-logistics-warehouse/pull/1769 not yet
+migrated for module stock_operating_unit.
+
 <!-- /!\ do not modify below this line -->
 
 <!-- prettier-ignore-start -->
