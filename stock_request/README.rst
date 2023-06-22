@@ -116,6 +116,7 @@ Contributors
   * Steve Campbell <scampbell@opensourceintegrators.com>
 
 * Héctor Villarreal <hector.villarreal@forgeflow.com>
+* Oriol Miranda <oriol.miranda@forgeflow.com>
 
 Maintainers
 ~~~~~~~~~~~
