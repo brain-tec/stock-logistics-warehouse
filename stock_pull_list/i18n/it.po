@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-09-07 17:36+0000\n"
+"PO-Revision-Date: 2023-10-10 11:46+0000\n"
 "Last-Translator: Francesco Foresti <francesco.foresti@ooops404.com>\n"
 "Language-Team: none\n"
 "Language: it\n"
@@ -19,15 +19,26 @@ msgstr ""
 #. module: stock_pull_list
 #: model_terms:ir.ui.view,arch_db:stock_pull_list.view_run_stock_pull_list_wizard_wizard
 msgid ""
-"All existing Stock moves moving outside of the location specified will be considered demand.\n"
+"All existing Stock moves moving outside of the location specified will be "
+"considered demand.\n"
 "                You can filter these moves in the section below."
 msgstr ""
+"Tutti i movimenti di magazzino esistenti in uscita dall'ubicazione "
+"specificata verranno considerati fabbisogno.\n"
+"                Puoi filtrare questi movimenti nella sezione qui sotto."
 
 #. module: stock_pull_list
 #: model:ir.model.fields,help:stock_pull_list.field_stock_pull_list_wizard__consolidate_by_product
 msgid ""
 "All needs for each product will be grouped in one line, disregarding date."
 msgstr ""
+"Tutto il fabbisogno per ogni prodotto verrà raggruppato in una singola riga, "
+"ignorando la data."
+
+#. module: stock_pull_list
+#: model:ir.model.fields,field_description:stock_pull_list.field_stock_picking_type__allow_pull_list_server_action
+msgid "Allow pull list server action"
+msgstr "Permetti azione del server per lista prelevamento"
 
 #. module: stock_pull_list
 #: model_terms:ir.ui.view,arch_db:stock_pull_list.view_run_stock_pull_list_wizard_wizard_step_2
@@ -49,6 +60,12 @@ msgstr "Qtà disponibile"
 #: model_terms:ir.ui.view,arch_db:stock_pull_list.view_run_stock_pull_list_wizard_wizard_step_2
 msgid "Cancel"
 msgstr "Annulla"
+
+#. module: stock_pull_list
+#: code:addons/stock_pull_list/models/stock_picking.py:0
+#, python-format
+msgid "Choose transfers with same source location"
+msgstr "Scegli dei trasferimenti con la stessa ubicazione di origine"
 
 #. module: stock_pull_list
 #: model:ir.model.fields,field_description:stock_pull_list.field_stock_pull_list_wizard__consolidate_by_product
@@ -83,6 +100,8 @@ msgid "Destination Location"
 msgstr "Ubicazione di destinazione"
 
 #. module: stock_pull_list
+#: model:ir.model.fields,field_description:stock_pull_list.field_stock_picking__display_name
+#: model:ir.model.fields,field_description:stock_pull_list.field_stock_picking_type__display_name
 #: model:ir.model.fields,field_description:stock_pull_list.field_stock_pull_list_wizard__display_name
 #: model:ir.model.fields,field_description:stock_pull_list.field_stock_pull_list_wizard_line__display_name
 msgid "Display Name"
@@ -105,6 +124,7 @@ msgstr "Filtro"
 
 #. module: stock_pull_list
 #: model:ir.actions.act_window,name:stock_pull_list.action_stock_pull_list_wizard
+#: model:ir.actions.server,name:stock_pull_list.stock_generate_pull_list
 #: model:ir.ui.menu,name:stock_pull_list.menu_stock_pull_list_wizard
 msgid "Generate Pull List"
 msgstr "Genera lista prelevamento"
@@ -121,6 +141,8 @@ msgid "Group By Rule"
 msgstr "Regola raggruppa per"
 
 #. module: stock_pull_list
+#: model:ir.model.fields,field_description:stock_pull_list.field_stock_picking__id
+#: model:ir.model.fields,field_description:stock_pull_list.field_stock_picking_type__id
 #: model:ir.model.fields,field_description:stock_pull_list.field_stock_pull_list_wizard__id
 #: model:ir.model.fields,field_description:stock_pull_list.field_stock_pull_list_wizard_line__id
 msgid "ID"
@@ -132,6 +154,8 @@ msgid "Incoming Qty"
 msgstr "Qtà in entrata"
 
 #. module: stock_pull_list
+#: model:ir.model.fields,field_description:stock_pull_list.field_stock_picking____last_update
+#: model:ir.model.fields,field_description:stock_pull_list.field_stock_picking_type____last_update
 #: model:ir.model.fields,field_description:stock_pull_list.field_stock_pull_list_wizard____last_update
 #: model:ir.model.fields,field_description:stock_pull_list.field_stock_pull_list_wizard_line____last_update
 msgid "Last Modified on"
@@ -176,6 +200,11 @@ msgid "Needs"
 msgstr "Necessario"
 
 #. module: stock_pull_list
+#: model:ir.model,name:stock_pull_list.model_stock_picking_type
+msgid "Picking Type"
+msgstr "Tipologia prelievo"
+
+#. module: stock_pull_list
 #: model_terms:ir.ui.view,arch_db:stock_pull_list.view_run_stock_pull_list_wizard_wizard
 msgid "Prepare"
 msgstr "Prepara"
@@ -204,7 +233,7 @@ msgstr "Lista prelevamento"
 #. module: stock_pull_list
 #: model:ir.model.fields,field_description:stock_pull_list.field_stock_pull_list_wizard_line__raw_demand_qty
 msgid "Raw Demand Qty"
-msgstr ""
+msgstr "Qtà richiesta grezza"
 
 #. module: stock_pull_list
 #: model:ir.model.fields,field_description:stock_pull_list.field_stock_pull_list_wizard__rule_action
@@ -238,12 +267,12 @@ msgstr "Opzioni dividi/raggruppa"
 #. module: stock_pull_list
 #: model:ir.model,name:stock_pull_list.model_stock_pull_list_wizard
 msgid "Stock Pull List Wizard"
-msgstr ""
+msgstr "Procedura guidata lista di prelevamento"
 
 #. module: stock_pull_list
 #: model:ir.model,name:stock_pull_list.model_stock_pull_list_wizard_line
 msgid "Stock Pull List Wizard Line"
-msgstr ""
+msgstr "Riga procedura guidata lista di prelevamento"
 
 #. module: stock_pull_list
 #: model:ir.model.fields,field_description:stock_pull_list.field_stock_pull_list_wizard_line__stock_rule_id
@@ -253,9 +282,20 @@ msgstr "Regola di giacenza"
 #. module: stock_pull_list
 #: model_terms:ir.ui.view,arch_db:stock_pull_list.view_run_stock_pull_list_wizard_wizard
 msgid ""
-"The pull list checks the stock situation at the given location and calculates\n"
-"                the shortfall quantities (quantity needed to cover all needs) for products."
+"The pull list checks the stock situation at the given location and "
+"calculates\n"
+"                the shortfall quantities (quantity needed to cover all "
+"needs) for products."
 msgstr ""
+"La lista di prelevamento verifica la situazione delle giacenze in una data "
+"ubicazione e calcola\n"
+"                le quantità mancanti (quantità necessarie per coprire le "
+"richieste) per i prodotti."
+
+#. module: stock_pull_list
+#: model:ir.model,name:stock_pull_list.model_stock_picking
+msgid "Transfer"
+msgstr "Trasferimento"
 
 #. module: stock_pull_list
 #: model:ir.model.fields,field_description:stock_pull_list.field_stock_pull_list_wizard__warehouse_id

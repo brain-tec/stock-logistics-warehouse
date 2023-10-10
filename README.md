@@ -58,7 +58,7 @@ addon | version | maintainers | summary
 [stock_location_lockdown](stock_location_lockdown/) | 14.0.1.0.0 |  | Prevent to add stock on locked locations
 [stock_location_orderpoint](stock_location_orderpoint/) | 14.0.1.1.0 | [![mt-software-de](https://github.com/mt-software-de.png?size=30px)](https://github.com/mt-software-de) | Declare orderpoint on a location allowing to replenish any product with the same criteria.
 [stock_location_orderpoint_source_relocate](stock_location_orderpoint_source_relocate/) | 14.0.1.0.2 | [![mt-software-de](https://github.com/mt-software-de.png?size=30px)](https://github.com/mt-software-de) | Run an auto location orderpoint replenishment also after a move gets relocated by Stock Move Source Relocate
-[stock_location_package_restriction](stock_location_package_restriction/) | 14.0.1.0.0 |  | Control if the location can contain products not in a package
+[stock_location_package_restriction](stock_location_package_restriction/) | 14.0.1.2.0 |  | Control if the location can contain products not in a package
 [stock_location_position](stock_location_position/) | 14.0.1.0.0 |  | Add coordinate attributes on stock location.
 [stock_location_route_description](stock_location_route_description/) | 14.0.1.0.0 |  | Add description field on stock routes.
 [stock_location_tray](stock_location_tray/) | 14.0.1.1.2 |  | Organize a location as a matrix of cells
@@ -89,7 +89,7 @@ addon | version | maintainers | summary
 [stock_picking_volume_packaging](stock_picking_volume_packaging/) | 14.0.1.1.0 |  | Use volume information on potential product packaging to compute the volume of a stock.move
 [stock_procurement_group_hook](stock_procurement_group_hook/) | 14.0.1.0.0 |  | Adds Hook to Procurement Group run method.
 [stock_product_qty_by_packaging](stock_product_qty_by_packaging/) | 14.0.1.0.0 |  | Compute product quantity to pick by packaging
-[stock_pull_list](stock_pull_list/) | 14.0.1.1.2 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | The pull list checks the stock situation and calculates needed quantities.
+[stock_pull_list](stock_pull_list/) | 14.0.1.2.0 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | The pull list checks the stock situation and calculates needed quantities.
 [stock_putaway_method](stock_putaway_method/) | 14.0.1.0.0 | [![asaunier](https://github.com/asaunier.png?size=30px)](https://github.com/asaunier) | Add the putaway strategy method back, removed from the stock module in Odoo 12
 [stock_putaway_product_template](stock_putaway_product_template/) | 14.0.1.1.0 | [![kevinkhao](https://github.com/kevinkhao.png?size=30px)](https://github.com/kevinkhao) [![sebastienbeau](https://github.com/sebastienbeau.png?size=30px)](https://github.com/sebastienbeau) | Add product template in putaway strategies from the product view
 [stock_quant_manual_assign](stock_quant_manual_assign/) | 14.0.1.3.1 |  | Stock - Manual Quant Assignment
@@ -101,7 +101,7 @@ addon | version | maintainers | summary
 [stock_request_analytic](stock_request_analytic/) | 14.0.1.0.3 |  | Internal request for stock
 [stock_request_cancel_confirm](stock_request_cancel_confirm/) | 14.0.1.0.1 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Stock Request Cancel Confirm
 [stock_request_direction](stock_request_direction/) | 14.0.1.0.1 | [![max3903](https://github.com/max3903.png?size=30px)](https://github.com/max3903) | From or to your warehouse?
-[stock_request_kanban](stock_request_kanban/) | 14.0.1.1.1 |  | Adds a stock request order, and takes stock requests as lines
+[stock_request_kanban](stock_request_kanban/) | 14.0.1.1.2 |  | Adds a stock request order, and takes stock requests as lines
 [stock_request_mrp](stock_request_mrp/) | 14.0.1.2.0 |  | Manufacturing request for stock
 [stock_request_partner](stock_request_partner/) | 14.0.1.0.1 |  | Allow to define partner in Stock Request
 [stock_request_picking_type](stock_request_picking_type/) | 14.0.1.1.0 | [![max3903](https://github.com/max3903.png?size=30px)](https://github.com/max3903) | Add Stock Requests to the Inventory App
