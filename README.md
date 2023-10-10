@@ -36,7 +36,7 @@ addon | version | maintainers | summary
 [stock_demand_estimate_matrix](stock_demand_estimate_matrix/) | 15.0.1.2.0 |  | Allows to create demand estimates.
 [stock_free_quantity](stock_free_quantity/) | 15.0.1.0.1 |  | Stock Free Quantity
 [stock_helper](stock_helper/) | 15.0.1.0.0 |  | Add methods shared between various stock modules
-[stock_inventory](stock_inventory/) | 15.0.1.0.1 |  | Allows to do an easier follow up of the Inventory Adjustments
+[stock_inventory](stock_inventory/) | 15.0.1.1.0 |  | Allows to do an easier follow up of the Inventory Adjustments
 [stock_inventory_count_to_zero](stock_inventory_count_to_zero/) | 15.0.1.0.0 |  | Request an inventory count filling the quantities to zero as default
 [stock_inventory_discrepancy](stock_inventory_discrepancy/) | 15.0.1.0.1 |  | Adds the capability to show the discrepancy of every line in an inventory and to block the inventory validation when the discrepancy is over a user defined threshold.
 [stock_location_lockdown](stock_location_lockdown/) | 15.0.1.0.1 |  | Prevent to add stock on locked locations
@@ -57,7 +57,7 @@ addon | version | maintainers | summary
 [stock_quant_manual_assign](stock_quant_manual_assign/) | 15.0.1.2.1 |  | Stock - Manual Quant Assignment
 [stock_request](stock_request/) | 15.0.1.6.3 |  | Internal request for stock
 [stock_request_analytic](stock_request_analytic/) | 15.0.1.0.1 |  | Internal request for stock
-[stock_request_kanban](stock_request_kanban/) | 15.0.1.1.1 |  | Adds a stock request order, and takes stock requests as lines
+[stock_request_kanban](stock_request_kanban/) | 15.0.1.1.2 |  | Adds a stock request order, and takes stock requests as lines
 [stock_request_mrp](stock_request_mrp/) | 15.0.1.3.0 |  | Manufacturing request for stock
 [stock_request_purchase](stock_request_purchase/) | 15.0.1.2.0 |  | Internal request for stock
 [stock_request_separate_picking](stock_request_separate_picking/) | 15.0.1.0.0 |  | Separate one picking per one stock request
