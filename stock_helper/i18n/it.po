@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* stock_location_route_description
+# 	* stock_helper
 #
 msgid ""
 msgstr ""
@@ -16,12 +16,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.17\n"
 
-#. module: stock_location_route_description
-#: model:ir.model.fields,field_description:stock_location_route_description.field_stock_location_route__description
-msgid "Description"
-msgstr "Descrizione"
-
-#. module: stock_location_route_description
-#: model:ir.model,name:stock_location_route_description.model_stock_location_route
-msgid "Inventory Routes"
-msgstr "Percorsi di inventario"
+#. module: stock_helper
+#: model:ir.model,name:stock_helper.model_stock_location
+msgid "Inventory Locations"
+msgstr "Ubicazioni di inventario"
