@@ -20,6 +20,7 @@ setuptools.setup(
         'odoo-addon-stock_inventory_count_to_zero>=16.0dev,<16.1dev',
         'odoo-addon-stock_inventory_discrepancy>=16.0dev,<16.1dev',
         'odoo-addon-stock_inventory_justification>=16.0dev,<16.1dev',
+        'odoo-addon-stock_inventory_preparation_filter>=16.0dev,<16.1dev',
         'odoo-addon-stock_location_lockdown>=16.0dev,<16.1dev',
         'odoo-addon-stock_location_position>=16.0dev,<16.1dev',
         'odoo-addon-stock_location_product_restriction>=16.0dev,<16.1dev',
@@ -35,6 +36,7 @@ setuptools.setup(
         'odoo-addon-stock_picking_commercial_partner>=16.0dev,<16.1dev',
         'odoo-addon-stock_picking_procure_method>=16.0dev,<16.1dev',
         'odoo-addon-stock_picking_product_interchangeable>=16.0dev,<16.1dev',
+        'odoo-addon-stock_picking_show_linked>=16.0dev,<16.1dev',
         'odoo-addon-stock_picking_volume>=16.0dev,<16.1dev',
         'odoo-addon-stock_picking_volume_packaging>=16.0dev,<16.1dev',
         'odoo-addon-stock_product_qty_by_packaging>=16.0dev,<16.1dev',
@@ -46,6 +48,7 @@ setuptools.setup(
         'odoo-addon-stock_route_mto>=16.0dev,<16.1dev',
         'odoo-addon-stock_search_supplierinfo_code>=16.0dev,<16.1dev',
         'odoo-addon-stock_storage_category_capacity_name>=16.0dev,<16.1dev',
+        'odoo-addon-stock_valuation_layer_accounting_date>=16.0dev,<16.1dev',
         'odoo-addon-stock_warehouse_calendar>=16.0dev,<16.1dev',
     ],
     classifiers=[
