@@ -23,7 +23,8 @@ addon | version | maintainers | summary
 --- | --- | --- | ---
 [account_move_line_product](account_move_line_product/) | 14.0.1.0.0 |  | Displays the product in the journal entries and items
 [account_move_line_stock_info](account_move_line_stock_info/) | 14.0.2.3.1 |  | Account Move Line Stock Info
-[procurement_auto_create_group](procurement_auto_create_group/) | 14.0.1.2.0 |  | Allows to configure the system to propose automatically new procurement groups during the procurement run.
+[procurement_auto_create_group](procurement_auto_create_group/) | 14.0.1.3.0 |  | Allows to configure the system to propose automatically new procurement groups during the procurement run.
+[procurement_auto_create_group_by_product](procurement_auto_create_group_by_product/) | 14.0.1.1.0 |  | Generate one picking per product on the procurement run.
 [product_quantity_update_force_inventory](product_quantity_update_force_inventory/) | 14.0.1.0.1 |  | Product Quantity Update Force Inventory
 [product_route_profile](product_route_profile/) | 14.0.1.0.3 | [![Kev-Roche](https://github.com/Kev-Roche.png?size=30px)](https://github.com/Kev-Roche) | Add Route profile concept on product
 [sale_stock_on_hand_popup](sale_stock_on_hand_popup/) | 14.0.2.0.0 | [![aleuffre](https://github.com/aleuffre.png?size=30px)](https://github.com/aleuffre) [![renda-dev](https://github.com/renda-dev.png?size=30px)](https://github.com/renda-dev) [![PicchiSeba](https://github.com/PicchiSeba.png?size=30px)](https://github.com/PicchiSeba) | Sale Stock On Hand Popup
@@ -112,7 +113,7 @@ addon | version | maintainers | summary
 [stock_request_sequence_option](stock_request_sequence_option/) | 14.0.1.0.0 | [![ps-tubtim](https://github.com/ps-tubtim.png?size=30px)](https://github.com/ps-tubtim) | Manage sequence options for stock request
 [stock_request_submit](stock_request_submit/) | 14.0.1.3.0 |  | Add submit state on Stock Requests
 [stock_request_tier_validation](stock_request_tier_validation/) | 14.0.1.0.1 |  | Extends the functionality of Stock Requests to support a tier validation process.
-[stock_reserve](stock_reserve/) | 14.0.2.1.1 |  | Stock reservations on products
+[stock_reserve](stock_reserve/) | 14.0.2.1.2 |  | Stock reservations on products
 [stock_reserve_rule](stock_reserve_rule/) | 14.0.1.3.0 |  | Configure reservation rules by location
 [stock_search_supplierinfo_code](stock_search_supplierinfo_code/) | 14.0.1.0.0 |  | Allows to search for picking from supplierinfo code
 [stock_secondary_unit](stock_secondary_unit/) | 14.0.1.0.1 |  | Get product quantities in a secondary unit
