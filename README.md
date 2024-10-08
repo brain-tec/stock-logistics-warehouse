@@ -37,6 +37,7 @@ addon | version | maintainers | summary
 [stock_available_immediately_exclude_location](stock_available_immediately_exclude_location/) | 14.0.1.0.1 |  | Exclude locations from immediately usable quantity
 [stock_available_mrp](stock_available_mrp/) | 14.0.1.0.6 |  | Consider the production potential is available to promise
 [stock_available_portal](stock_available_portal/) | 14.0.1.0.0 | [![geomer198](https://github.com/geomer198.png?size=30px)](https://github.com/geomer198) [![CetmixGitDrone](https://github.com/CetmixGitDrone.png?size=30px)](https://github.com/CetmixGitDrone) | Show product quantity available to promise in portal
+[stock_available_stock_mts_mto_rule](stock_available_stock_mts_mto_rule/) | 14.0.1.0.0 |  | Stock Avaiable Stock Mts Mto Rule
 [stock_available_unreserved](stock_available_unreserved/) | 14.0.1.2.0 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | Quantity of stock available for immediate use
 [stock_change_qty_reason](stock_change_qty_reason/) | 14.0.1.0.2 |  | Stock Quantity Change Reason
 [stock_cycle_count](stock_cycle_count/) | 14.0.1.4.3 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | Adds the capability to schedule cycle counts in a warehouse through different rules defined by the user.
@@ -45,7 +46,7 @@ addon | version | maintainers | summary
 [stock_exception](stock_exception/) | 14.0.1.0.2 |  | Custom exceptions on stock picking
 [stock_free_quantity](stock_free_quantity/) | 14.0.1.2.0 |  | Stock Free Quantity
 [stock_generate_putaway_from_inventory](stock_generate_putaway_from_inventory/) | 14.0.1.0.0 | [![pierrickbrun](https://github.com/pierrickbrun.png?size=30px)](https://github.com/pierrickbrun) [![bealdav](https://github.com/bealdav.png?size=30px)](https://github.com/bealdav) [![sebastienbeau](https://github.com/sebastienbeau.png?size=30px)](https://github.com/sebastienbeau) [![kevinkhao](https://github.com/kevinkhao.png?size=30px)](https://github.com/kevinkhao) | Generate Putaway locations per Product deduced from Inventory
-[stock_helper](stock_helper/) | 14.0.1.2.1 |  | Add methods shared between various stock modules
+[stock_helper](stock_helper/) | 14.0.1.3.0 |  | Add methods shared between various stock modules
 [stock_inventory_cost_info](stock_inventory_cost_info/) | 14.0.1.0.0 |  | Shows the cost of the inventory adjustments
 [stock_inventory_discrepancy](stock_inventory_discrepancy/) | 14.0.1.1.0 |  | Adds the capability to show the discrepancy of every line in an inventory and to block the inventory validation when the discrepancy is over a user defined threshold.
 [stock_inventory_exclude_sublocation](stock_inventory_exclude_sublocation/) | 14.0.1.0.1 |  | Allow to perform inventories of a location without including its child locations.
@@ -75,7 +76,7 @@ addon | version | maintainers | summary
 [stock_move_common_dest](stock_move_common_dest/) | 14.0.1.0.1 |  | Adds field for common destination moves
 [stock_move_location](stock_move_location/) | 14.0.1.4.3 |  | This module allows to move all stock in a stock location to an other one.
 [stock_mts_mto_mrp_rule](stock_mts_mto_mrp_rule/) | 14.0.1.0.1 | [![geomer198](https://github.com/geomer198.png?size=30px)](https://github.com/geomer198) [![CetmixGitDrone](https://github.com/CetmixGitDrone.png?size=30px)](https://github.com/CetmixGitDrone) | Stock MTS+MTO MRP Rule
-[stock_mts_mto_rule](stock_mts_mto_rule/) | 14.0.1.2.0 |  | Add a MTS+MTO route
+[stock_mts_mto_rule](stock_mts_mto_rule/) | 14.0.2.0.0 |  | Add a MTS+MTO route
 [stock_orderpoint_generator](stock_orderpoint_generator/) | 14.0.1.0.0 |  | Mass configuration of stock order points
 [stock_orderpoint_manual_procurement](stock_orderpoint_manual_procurement/) | 14.0.1.0.5 |  | Allows to create procurement orders from orderpoints instead of relying only on the scheduler.
 [stock_orderpoint_manual_procurement_uom](stock_orderpoint_manual_procurement_uom/) | 14.0.1.0.2 |  | Glue module for stock_orderpoint_uom and stock_orderpoint_manual_procurement
