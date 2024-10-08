@@ -48,6 +48,7 @@ addon | version | maintainers | summary
 [stock_move_location](stock_move_location/) | 16.0.1.4.0 |  | This module allows to move all stock in a stock location to an other one.
 [stock_move_packaging_qty](stock_move_packaging_qty/) | 16.0.1.5.0 | [![yajo](https://github.com/yajo.png?size=30px)](https://github.com/yajo) [![EmilioPascual](https://github.com/EmilioPascual.png?size=30px)](https://github.com/EmilioPascual) | Add packaging fields in the stock moves
 [stock_mts_mto_rule](stock_mts_mto_rule/) | 16.0.1.0.1 |  | Add a MTS+MTO route
+[stock_package_type_category](stock_package_type_category/) | 16.0.1.0.0 |  | This module allows to group package types in different categories
 [stock_package_type_volume](stock_package_type_volume/) | 16.0.1.0.0 |  | Compute volume of a package type
 [stock_packaging_calculator](stock_packaging_calculator/) | 16.0.1.0.1 |  | Compute product quantity to pick by packaging
 [stock_packaging_calculator_packaging_level](stock_packaging_calculator_packaging_level/) | 16.0.1.0.0 |  | Glue module for packaging level
@@ -56,7 +57,7 @@ addon | version | maintainers | summary
 [stock_picking_procure_method](stock_picking_procure_method/) | 16.0.1.0.0 |  | Allows to force the procurement method from the picking
 [stock_picking_product_interchangeable](stock_picking_product_interchangeable/) | 16.0.1.0.0 | [![CetmixGitDrone](https://github.com/CetmixGitDrone.png?size=30px)](https://github.com/CetmixGitDrone) | Stock Picking Product Interchangeable
 [stock_picking_show_linked](stock_picking_show_linked/) | 16.0.1.0.0 |  | This addon allows to easily access related pickings (in the case of chained routes) through a button in the parent picking view.
-[stock_picking_volume](stock_picking_volume/) | 16.0.1.0.3 | [![lmignon](https://github.com/lmignon.png?size=30px)](https://github.com/lmignon) | Compute volume information on stock moves and pickings
+[stock_picking_volume](stock_picking_volume/) | 16.0.1.0.4 | [![lmignon](https://github.com/lmignon.png?size=30px)](https://github.com/lmignon) | Compute volume information on stock moves and pickings
 [stock_picking_volume_packaging](stock_picking_volume_packaging/) | 16.0.1.0.1 |  | Use volume information on potential product packaging to compute the volume of a stock.move
 [stock_product_qty_by_packaging](stock_product_qty_by_packaging/) | 16.0.1.0.0 |  | Compute product quantity to pick by packaging
 [stock_production_lot_quantity_tree](stock_production_lot_quantity_tree/) | 16.0.1.0.0 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | Allows to display product quantity field on production lot tree view
@@ -75,7 +76,7 @@ addon | version | maintainers | summary
 [stock_route_mto](stock_route_mto/) | 16.0.1.0.0 |  | Allows to identify MTO routes through a checkbox and availability to filter them.
 [stock_scrap_location_default](stock_scrap_location_default/) | 16.0.1.0.0 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | Allows to define a setting at company level that reference a default scrap location
 [stock_search_supplierinfo_code](stock_search_supplierinfo_code/) | 16.0.1.0.1 |  | Allows to search for picking from supplierinfo code
-[stock_secondary_unit](stock_secondary_unit/) | 16.0.1.0.0 |  | Get product quantities in a secondary unit
+[stock_secondary_unit](stock_secondary_unit/) | 16.0.1.1.0 |  | Get product quantities in a secondary unit
 [stock_storage_category_capacity_name](stock_storage_category_capacity_name/) | 16.0.1.0.0 |  | Allows to have a better display name for Stock Storage Category Capacity model
 [stock_valuation_layer_accounting_date](stock_valuation_layer_accounting_date/) | 16.0.1.0.0 |  | Stock Valuation Layer Accounting Date
 [stock_valuation_layer_inventory_filter](stock_valuation_layer_inventory_filter/) | 16.0.1.0.1 | [![Shide](https://github.com/Shide.png?size=30px)](https://github.com/Shide) | Allows to filter Inventory Adjustments on Stock Valuation Layers
