@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-10-09 09:06+0000\n"
+"PO-Revision-Date: 2025-01-19 14:16+0000\n"
 "Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
 "Language-Team: none\n"
 "Language: it\n"
@@ -65,7 +65,7 @@ msgstr ""
 #. module: product_route_profile
 #: model:ir.model.fields,field_description:product_route_profile.field_route_profile____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Ultima modifica il"
 
 #. module: product_route_profile
 #: model:ir.model.fields,field_description:product_route_profile.field_route_profile__write_uid
