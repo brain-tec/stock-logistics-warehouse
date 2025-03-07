@@ -42,7 +42,7 @@ addon | version | maintainers | summary
 [stock_inventory_preparation_filter](stock_inventory_preparation_filter/) | 16.0.1.1.0 |  | More filters for inventory adjustments
 [stock_location_children](stock_location_children/) | 16.0.1.0.0 |  | Add relation between stock location and all its children
 [stock_location_lockdown](stock_location_lockdown/) | 16.0.1.0.1 |  | Prevent to add stock on locked locations
-[stock_location_package_restriction](stock_location_package_restriction/) | 16.0.1.0.0 |  | Control if the location can contain products in a package
+[stock_location_package_restriction](stock_location_package_restriction/) | 16.0.1.0.1 |  | Control if the location can contain products in a package
 [stock_location_pending_move](stock_location_pending_move/) | 16.0.1.0.0 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) [![jbaudoux](https://github.com/jbaudoux.png?size=30px)](https://github.com/jbaudoux) | This module allows to show pending stock moves (outgoing and incoming) on a stock location
 [stock_location_position](stock_location_position/) | 16.0.1.0.0 |  | Add coordinate attributes on stock location.
 [stock_location_product_restriction](stock_location_product_restriction/) | 16.0.1.2.0 | [![lmignon](https://github.com/lmignon.png?size=30px)](https://github.com/lmignon) [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | Prevent to mix different products into the same stock location
@@ -60,7 +60,7 @@ addon | version | maintainers | summary
 [stock_packaging_calculator_packaging_level](stock_packaging_calculator_packaging_level/) | 16.0.1.0.0 |  | Glue module for packaging level
 [stock_picking_batch_packaging_qty](stock_picking_batch_packaging_qty/) | 16.0.1.0.1 | [![EmilioPascual](https://github.com/EmilioPascual.png?size=30px)](https://github.com/EmilioPascual) [![rafaelbn](https://github.com/rafaelbn.png?size=30px)](https://github.com/rafaelbn) | Add packaging fields in stock picking batch
 [stock_picking_commercial_partner](stock_picking_commercial_partner/) | 16.0.1.0.0 |  | Add Commercial Partner on the Stock Picking
-[stock_picking_procure_method](stock_picking_procure_method/) | 16.0.1.0.0 |  | Allows to force the procurement method from the picking
+[stock_picking_procure_method](stock_picking_procure_method/) | 16.0.1.0.1 |  | Allows to force the procurement method from the picking
 [stock_picking_product_interchangeable](stock_picking_product_interchangeable/) | 16.0.1.0.0 | [![CetmixGitDrone](https://github.com/CetmixGitDrone.png?size=30px)](https://github.com/CetmixGitDrone) | Stock Picking Product Interchangeable
 [stock_picking_show_linked](stock_picking_show_linked/) | 16.0.1.0.0 |  | This addon allows to easily access related pickings (in the case of chained routes) through a button in the parent picking view.
 [stock_picking_volume](stock_picking_volume/) | 16.0.1.1.0 | [![lmignon](https://github.com/lmignon.png?size=30px)](https://github.com/lmignon) | Compute volume information on stock moves and pickings
