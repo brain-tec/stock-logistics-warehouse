@@ -27,6 +27,7 @@ setuptools.setup(
         'odoo-addon-stock_inventory_justification>=16.0dev,<16.1dev',
         'odoo-addon-stock_inventory_lockdown>=16.0dev,<16.1dev',
         'odoo-addon-stock_inventory_preparation_filter>=16.0dev,<16.1dev',
+        'odoo-addon-stock_inventory_quantity_history>=16.0dev,<16.1dev',
         'odoo-addon-stock_location_children>=16.0dev,<16.1dev',
         'odoo-addon-stock_location_lockdown>=16.0dev,<16.1dev',
         'odoo-addon-stock_location_package_restriction>=16.0dev,<16.1dev',
