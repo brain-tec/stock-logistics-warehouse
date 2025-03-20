@@ -35,7 +35,7 @@ addon | version | maintainers | summary
 [stock_location_position](stock_location_position/) | 18.0.1.0.0 |  | Add coordinate attributes on stock location.
 [stock_location_zone](stock_location_zone/) | 18.0.1.0.0 |  | Classify locations with zones.
 [stock_move_common_dest](stock_move_common_dest/) | 18.0.1.0.0 |  | Adds field for common destination moves
-[stock_packaging_calculator](stock_packaging_calculator/) | 18.0.1.0.0 |  | Compute product quantity to pick by packaging
+[stock_packaging_calculator](stock_packaging_calculator/) | 18.0.2.0.0 |  | Compute product quantity to pick by packaging
 [stock_picking_completion_info](stock_picking_completion_info/) | 18.0.1.0.0 |  | Display on current document completion information according to next operations
 [stock_picking_product_assortment](stock_picking_product_assortment/) | 18.0.1.0.0 | [![CarlosRoca13](https://github.com/CarlosRoca13.png?size=30px)](https://github.com/CarlosRoca13) | Stock Picking Product Assortment
 [stock_picking_supplier_ref](stock_picking_supplier_ref/) | 18.0.1.0.0 |  | Adds a supplier reference field inside supplier's pickings and allows search for this reference.
