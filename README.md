@@ -51,6 +51,8 @@ addon | version | maintainers | summary
 [stock_product_qty_by_packaging](stock_product_qty_by_packaging/) | 18.0.1.0.0 |  | Compute product quantity to pick by packaging
 [stock_putaway_product_template](stock_putaway_product_template/) | 18.0.1.0.0 | [![kevinkhao](https://github.com/kevinkhao.png?size=30px)](https://github.com/kevinkhao) [![sebastienbeau](https://github.com/sebastienbeau.png?size=30px)](https://github.com/sebastienbeau) | Add product template in putaway strategies from the product view
 [stock_quant_cost_info](stock_quant_cost_info/) | 18.0.1.0.0 |  | Shows the cost of the quants
+[stock_quant_reservation_info](stock_quant_reservation_info/) | 18.0.1.0.0 |  | Allows to see the reserved info of Products
+[stock_quant_reservation_info_mrp](stock_quant_reservation_info_mrp/) | 18.0.1.0.0 |  | Allows to see the manufacturing order related to the reserved info of Products
 [stock_route_location_source](stock_route_location_source/) | 18.0.1.0.0 |  | Add method to get source location of Inventory Routes
 [stock_storage_category_capacity_name](stock_storage_category_capacity_name/) | 18.0.1.0.0 |  | Allows to have a better display name for Stock Storage Category Capacity model
 [stock_vertical_lift](stock_vertical_lift/) | 18.0.1.1.0 |  | Provides the core for integration with Vertical Lifts
