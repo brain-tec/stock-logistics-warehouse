@@ -28,6 +28,7 @@ addon | version | maintainers | summary
 [account_move_line_stock_info](account_move_line_stock_info/) | 18.0.1.0.0 |  | Account Move Line Stock Info
 [procurement_auto_create_group](procurement_auto_create_group/) | 18.0.1.0.1 |  | Allows to configure the system to propose automatically new procurement groups during the procurement run.
 [stock_archive_constraint](stock_archive_constraint/) | 18.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Stock archive constraint
+[stock_cycle_count](stock_cycle_count/) | 18.0.1.0.0 | <a href='https://github.com/LoisRForgeFlow'><img src='https://github.com/LoisRForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='LoisRForgeFlow'/></a> | Adds the capability to schedule cycle counts in a warehouse through different rules defined by the user.
 [stock_demand_estimate](stock_demand_estimate/) | 18.0.1.0.0 |  | Allows to create demand estimates.
 [stock_demand_estimate_matrix](stock_demand_estimate_matrix/) | 18.0.1.0.0 |  | Allows to create demand estimates.
 [stock_inventory](stock_inventory/) | 18.0.1.1.0 |  | Allows to do an easier follow up of the Inventory Adjustments
@@ -35,6 +36,7 @@ addon | version | maintainers | summary
 [stock_inventory_discrepancy](stock_inventory_discrepancy/) | 18.0.1.0.0 |  | Adds the capability to show the discrepancy of every line in an inventory and to block the inventory validation when the discrepancy is over a user defined threshold.
 [stock_inventory_lockdown](stock_inventory_lockdown/) | 18.0.1.0.0 |  | Lock down stock locations during inventories.
 [stock_inventory_preparation_filter](stock_inventory_preparation_filter/) | 18.0.1.0.0 |  | More filters for inventory adjustments
+[stock_inventory_verification_request](stock_inventory_verification_request/) | 18.0.1.0.0 | <a href='https://github.com/LoisRForgeFlow'><img src='https://github.com/LoisRForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='LoisRForgeFlow'/></a> | Adds the capability to request a Slot Verification when a inventory is Pending to Approve
 [stock_location_bin_name](stock_location_bin_name/) | 18.0.1.0.1 |  | Compute bin stock location name automatically
 [stock_location_children](stock_location_children/) | 18.0.1.0.0 |  | Add relation between stock location and all its children
 [stock_location_empty](stock_location_empty/) | 18.0.1.0.0 |  | Adds a filter for empty stock location
