@@ -163,7 +163,6 @@ msgstr ""
 
 #. module: stock_inventory
 #: model:ir.model.fields,help:stock_inventory.field_stock_inventory__message_has_error
-#: model:ir.model.fields,help:stock_inventory.field_stock_inventory__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 msgstr ""
 
@@ -335,11 +334,6 @@ msgid "Quants"
 msgstr ""
 
 #. module: stock_inventory
-#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__message_has_sms_error
-msgid "SMS Delivery error"
-msgstr ""
-
-#. module: stock_inventory
 #: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_group_form
 msgid "Set to Done"
 msgstr ""
@@ -431,6 +425,12 @@ msgstr ""
 msgid ""
 "When 'Product Selection: One Product' is selected you are only able to add "
 "one product."
+msgstr ""
+
+#. module: stock_inventory
+#. odoo-python
+#: code:addons/stock_inventory/models/stock_inventory.py:0
+msgid "You can only delete inventory adjustments groups in draft state."
 msgstr ""
 
 #. module: stock_inventory
