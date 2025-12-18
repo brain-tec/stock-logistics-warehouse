@@ -92,7 +92,12 @@
                         class="o_shuttle_operation bg-primary jumbotron jumbotron-fluid"
                     >
                         <div class="container">
-                            <field name="state" invisible="0" readonly="True" />
+                            <field
+                                name="state"
+                                invisible="0"
+                                readonly="True"
+                                force_save="1"
+                            />
                         </div>
                     </div>
                     <div class="o_shuttle_data" />
@@ -111,6 +116,7 @@
                 <attribute name="invisible">not current_move_line_id</attribute>
             </xpath>
             <xpath expr="//div[hasclass('o_shuttle_data')]" position="inside">
+                <field name="current_move_line_id" invisible="True" force_save="1" />
                 <!-- on the left of the screen -->
                 <div class="o_shuttle_data_content o_shuttle_move">
                     <div>
@@ -141,8 +147,9 @@
                             <div>
                                 <field
                                     name="location_dest_id"
-                                    class="bg-primary o_shuttle_highlight"
+                                    class="bg-primary o_shuttle_highlight text-white"
                                     readonly="1"
+                                    force_save="1"
                                     options="{'no_open': True}"
                                 />
                             </div>
