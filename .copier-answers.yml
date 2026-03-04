@@ -1,6 +1,7 @@
 # Do NOT update manually; changes here will be overwritten by Copier
-_commit: v1.29
+_commit: v1.39
 _src_path: gh:oca/oca-addons-repo-template
+additional_ruff_rules: []
 ci: GitHub
 convert_readme_fragments_to_markdown: false
 enable_checklog_odoo: false
@@ -12,7 +13,7 @@ github_enable_makepot: true
 github_enable_stale_action: true
 github_enforce_dev_status_compatibility: true
 include_wkhtmltopdf: false
-odoo_test_flavor: Both
+odoo_test_flavor: Odoo
 odoo_version: 16.0
 org_name: Odoo Community Association (OCA)
 org_slug: OCA
@@ -22,5 +23,5 @@ repo_name: stock-logistics-warehouse
 repo_slug: stock-logistics-warehouse
 repo_website: https://github.com/OCA/stock-logistics-warehouse
 use_pyproject_toml: false
-use_ruff: false
+use_ruff: true
 

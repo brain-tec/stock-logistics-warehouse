@@ -17,6 +17,11 @@ msgstr ""
 "X-Generator: Weblate 5.6.2\n"
 
 #. module: stock_lot_multi_image
+#: model:ir.model.fields,field_description:stock_lot_multi_image.field_stock_lot__image_1920
+msgid "Image"
+msgstr ""
+
+#. module: stock_lot_multi_image
 #: model:ir.model.fields,field_description:stock_lot_multi_image.field_stock_lot__image_1024
 msgid "Image 1024"
 msgstr "Immagine 1024"
@@ -25,11 +30,6 @@ msgstr "Immagine 1024"
 #: model:ir.model.fields,field_description:stock_lot_multi_image.field_stock_lot__image_128
 msgid "Image 128"
 msgstr "Immagine 128"
-
-#. module: stock_lot_multi_image
-#: model:ir.model.fields,field_description:stock_lot_multi_image.field_stock_lot__image_1920
-msgid "Image 1920"
-msgstr "Immagine 1920"
 
 #. module: stock_lot_multi_image
 #: model:ir.model.fields,field_description:stock_lot_multi_image.field_stock_lot__image_256
@@ -51,3 +51,6 @@ msgstr "Immagini"
 #: model:ir.model,name:stock_lot_multi_image.model_stock_lot
 msgid "Lot/Serial"
 msgstr "Lotto/seriale"
+
+#~ msgid "Image 1920"
+#~ msgstr "Immagine 1920"
