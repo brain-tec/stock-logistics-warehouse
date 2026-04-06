@@ -30,13 +30,13 @@ addon | version | maintainers | summary
 [product_route_profile](product_route_profile/) | 18.0.1.0.0 | <a href='https://github.com/Kev-Roche'><img src='https://github.com/Kev-Roche.png' width='32' height='32' style='border-radius:50%;' alt='Kev-Roche'/></a> | Add Route profile concept on product
 [stock_archive_constraint](stock_archive_constraint/) | 18.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Stock archive constraint
 [stock_change_qty_reason](stock_change_qty_reason/) | 18.0.1.0.0 |  | Stock Quantity Change Reason
-[stock_cycle_count](stock_cycle_count/) | 18.0.1.0.1 | <a href='https://github.com/LoisRForgeFlow'><img src='https://github.com/LoisRForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='LoisRForgeFlow'/></a> | Adds the capability to schedule cycle counts in a warehouse through different rules defined by the user.
+[stock_cycle_count](stock_cycle_count/) | 18.0.1.0.2 | <a href='https://github.com/LoisRForgeFlow'><img src='https://github.com/LoisRForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='LoisRForgeFlow'/></a> | Adds the capability to schedule cycle counts in a warehouse through different rules defined by the user.
 [stock_demand_estimate](stock_demand_estimate/) | 18.0.1.1.0 |  | Allows to create demand estimates.
 [stock_demand_estimate_matrix](stock_demand_estimate_matrix/) | 18.0.1.0.0 |  | Allows to create demand estimates.
 [stock_inventory](stock_inventory/) | 18.0.1.1.2 |  | Allows to do an easier follow up of the Inventory Adjustments
 [stock_inventory_count_to_zero](stock_inventory_count_to_zero/) | 18.0.1.0.0 |  | Request an inventory count filling the quantities to zero as default
 [stock_inventory_discrepancy](stock_inventory_discrepancy/) | 18.0.1.1.0 |  | Adds the capability to show the discrepancy of every line in an inventory and to block the inventory validation when the discrepancy is over a user defined threshold.
-[stock_inventory_lockdown](stock_inventory_lockdown/) | 18.0.1.0.0 |  | Lock down stock locations during inventories.
+[stock_inventory_lockdown](stock_inventory_lockdown/) | 18.0.1.0.1 |  | Lock down stock locations during inventories.
 [stock_inventory_preparation_filter](stock_inventory_preparation_filter/) | 18.0.1.0.0 |  | More filters for inventory adjustments
 [stock_inventory_verification_request](stock_inventory_verification_request/) | 18.0.1.2.0 | <a href='https://github.com/LoisRForgeFlow'><img src='https://github.com/LoisRForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='LoisRForgeFlow'/></a> | Adds the capability to request a Slot Verification when a inventory is Pending to Approve
 [stock_location_bin_name](stock_location_bin_name/) | 18.0.1.0.1 |  | Compute bin stock location name automatically
@@ -58,7 +58,7 @@ addon | version | maintainers | summary
 [stock_move_location](stock_move_location/) | 18.0.1.0.1 |  | This module allows to move all stock in a stock location to an other one.
 [stock_move_location_purchase_uom](stock_move_location_purchase_uom/) | 18.0.1.0.0 |  | This module 'glues' the modules stock_move_location and stock_move_purchase_uom.
 [stock_move_packaging_qty](stock_move_packaging_qty/) | 18.0.1.1.0 | <a href='https://github.com/yajo'><img src='https://github.com/yajo.png' width='32' height='32' style='border-radius:50%;' alt='yajo'/></a> <a href='https://github.com/EmilioPascual'><img src='https://github.com/EmilioPascual.png' width='32' height='32' style='border-radius:50%;' alt='EmilioPascual'/></a> <a href='https://github.com/Shide'><img src='https://github.com/Shide.png' width='32' height='32' style='border-radius:50%;' alt='Shide'/></a> | Add packaging fields in the stock moves
-[stock_move_purchase_uom](stock_move_purchase_uom/) | 18.0.1.1.1 |  | Allow to use the purchase UoM in a stock move
+[stock_move_purchase_uom](stock_move_purchase_uom/) | 18.0.1.1.2 |  | Allow to use the purchase UoM in a stock move
 [stock_move_reset_quantity](stock_move_reset_quantity/) | 18.0.1.0.0 |  | Reset quantity to zero
 [stock_package_type_volume](stock_package_type_volume/) | 18.0.1.0.0 |  | Compute volume of a package type
 [stock_packaging_calculator](stock_packaging_calculator/) | 18.0.2.0.0 |  | Compute product quantity to pick by packaging
@@ -82,16 +82,18 @@ addon | version | maintainers | summary
 [stock_secondary_unit](stock_secondary_unit/) | 18.0.1.0.0 |  | Get product quantities in a secondary unit
 [stock_storage_category_capacity_name](stock_storage_category_capacity_name/) | 18.0.1.0.1 |  | Allows to have a better display name for Stock Storage Category Capacity model
 [stock_valuation_layer_inventory_filter](stock_valuation_layer_inventory_filter/) | 18.0.1.0.1 | <a href='https://github.com/Shide'><img src='https://github.com/Shide.png' width='32' height='32' style='border-radius:50%;' alt='Shide'/></a> <a href='https://github.com/Andrii9090'><img src='https://github.com/Andrii9090.png' width='32' height='32' style='border-radius:50%;' alt='Andrii9090'/></a> | Allows to filter Inventory Adjustments on Stock Valuation Layers
-[stock_vertical_lift](stock_vertical_lift/) | 18.0.1.3.0 |  | Provides the core for integration with Vertical Lifts
+[stock_vertical_lift](stock_vertical_lift/) | 18.0.1.3.1 |  | Provides the core for integration with Vertical Lifts
 [stock_vertical_lift_empty_tray_check](stock_vertical_lift_empty_tray_check/) | 18.0.1.0.0 |  | Checks if the tray is actually empty.
 [stock_vertical_lift_packaging_level](stock_vertical_lift_packaging_level/) | 18.0.1.0.0 |  | Provides integration with Vertical Lifts and packaging levels
 [stock_vertical_lift_qty_by_packaging](stock_vertical_lift_qty_by_packaging/) | 18.0.1.0.0 |  | Glue module for `stock_product_qty_by_packaging` and `stock_vertical_lift`.
 [stock_vertical_lift_server_env](stock_vertical_lift_server_env/) | 18.0.1.0.0 |  | Server Environment layer for Vertical Lift
 [stock_vertical_lift_storage_type](stock_vertical_lift_storage_type/) | 18.0.1.0.0 |  | Compatibility layer for storage types on vertical lifts
 [stock_vlm_mgmt](stock_vlm_mgmt/) | 18.0.1.0.0 | <a href='https://github.com/chienandalu'><img src='https://github.com/chienandalu.png' width='32' height='32' style='border-radius:50%;' alt='chienandalu'/></a> | Light self contained alternative for VLM integrations
+[stock_vlm_mgmt_kardex](stock_vlm_mgmt_kardex/) | 18.0.1.0.0 | <a href='https://github.com/chienandalu'><img src='https://github.com/chienandalu.png' width='32' height='32' style='border-radius:50%;' alt='chienandalu'/></a> | Light alternative for Kardex VLM integrations
+[stock_vlm_mgmt_modula](stock_vlm_mgmt_modula/) | 18.0.1.0.0 | <a href='https://github.com/chienandalu'><img src='https://github.com/chienandalu.png' width='32' height='32' style='border-radius:50%;' alt='chienandalu'/></a> | Light alternative for Modula VLM integrations
 [stock_warehouse_calendar](stock_warehouse_calendar/) | 18.0.1.1.0 | <a href='https://github.com/JordiBForgeFlow'><img src='https://github.com/JordiBForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='JordiBForgeFlow'/></a> | Adds a calendar to the Warehouse
 [stock_warehouse_out_pull](stock_warehouse_out_pull/) | 18.0.1.0.2 |  | Restore delivery pull rules as in Odoo <= 17.0
-[stock_warehouse_resupply_route_push](stock_warehouse_resupply_route_push/) | 18.0.1.0.0 | <a href='https://github.com/LoisRForgeFlow'><img src='https://github.com/LoisRForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='LoisRForgeFlow'/></a> | Use push rules for resupply from other warehouse routes.
+[stock_warehouse_resupply_route_push](stock_warehouse_resupply_route_push/) | 18.0.1.0.1 | <a href='https://github.com/LoisRForgeFlow'><img src='https://github.com/LoisRForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='LoisRForgeFlow'/></a> | Use push rules for resupply from other warehouse routes.
 [stock_warehouse_security](stock_warehouse_security/) | 18.0.1.0.0 | <a href='https://github.com/petrus-v'><img src='https://github.com/petrus-v.png' width='32' height='32' style='border-radius:50%;' alt='petrus-v'/></a> | Restrict user access in multi-warehouse environment
 
 [//]: # (end addons)
