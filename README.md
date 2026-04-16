@@ -43,6 +43,7 @@ addon | version | maintainers | summary
 [stock_move_location](stock_move_location/) | 17.0.1.0.0 |  | This module allows to move all stock in a stock location to an other one.
 [stock_mts_mto_rule](stock_mts_mto_rule/) | 17.0.1.0.1 |  | Add a MTS+MTO route
 [stock_packaging_calculator](stock_packaging_calculator/) | 17.0.1.1.0 |  | Compute product quantity to pick by packaging
+[stock_picking_procure_method](stock_picking_procure_method/) | 17.0.1.0.0 |  | Allows to force the procurement method from the picking
 [stock_picking_show_linked](stock_picking_show_linked/) | 17.0.1.0.0 |  | This addon allows to easily access related pickings (in the case of chained routes) through a button in the parent picking view.
 [stock_picking_volume](stock_picking_volume/) | 17.0.1.1.0 | <a href='https://github.com/lmignon'><img src='https://github.com/lmignon.png' width='32' height='32' style='border-radius:50%;' alt='lmignon'/></a> | Compute volume information on stock moves and pickings
 [stock_picking_volume_packaging](stock_picking_volume_packaging/) | 17.0.1.0.0 |  | Use volume information on potential product packaging to compute the volume of a stock.move
@@ -55,7 +56,7 @@ addon | version | maintainers | summary
 [stock_reserve_sale](stock_reserve_sale/) | 17.0.1.0.0 |  | Stock Reserve Sales
 [stock_route_mto](stock_route_mto/) | 17.0.1.0.0 |  | Allows to identify MTO routes through a checkbox and availability to filter them.
 [stock_search_supplierinfo_code](stock_search_supplierinfo_code/) | 17.0.1.0.0 |  | Allows to search for picking from supplierinfo code
-[stock_secondary_unit](stock_secondary_unit/) | 17.0.1.1.0 |  | Get product quantities in a secondary unit
+[stock_secondary_unit](stock_secondary_unit/) | 17.0.1.2.0 |  | Get product quantities in a secondary unit
 [stock_warehouse_calendar](stock_warehouse_calendar/) | 17.0.1.0.1 | <a href='https://github.com/JordiBForgeFlow'><img src='https://github.com/JordiBForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='JordiBForgeFlow'/></a> | Adds a calendar to the Warehouse
 
 [//]: # (end addons)
