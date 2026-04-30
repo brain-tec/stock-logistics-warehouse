@@ -56,7 +56,7 @@ addon | version | maintainers | summary
 [stock_move_auto_assign_auto_release](stock_move_auto_assign_auto_release/) | 16.0.1.2.1 |  | Auto release moves after auto assign
 [stock_move_auto_assign_auto_release_exclude_location](stock_move_auto_assign_auto_release_exclude_location/) | 16.0.1.0.1 |  | Exclude locations from auto release moves after auto assign
 [stock_move_common_dest](stock_move_common_dest/) | 16.0.1.0.2 |  | Adds field for common destination moves
-[stock_move_location](stock_move_location/) | 16.0.1.4.2 |  | This module allows to move all stock in a stock location to an other one.
+[stock_move_location](stock_move_location/) | 16.0.1.4.3 |  | This module allows to move all stock in a stock location to an other one.
 [stock_move_packaging_qty](stock_move_packaging_qty/) | 16.0.1.5.0 | <a href='https://github.com/yajo'><img src='https://github.com/yajo.png' width='32' height='32' style='border-radius:50%;' alt='yajo'/></a> <a href='https://github.com/EmilioPascual'><img src='https://github.com/EmilioPascual.png' width='32' height='32' style='border-radius:50%;' alt='EmilioPascual'/></a> | Add packaging fields in the stock moves
 [stock_mts_mto_rule](stock_mts_mto_rule/) | 16.0.1.0.3 |  | Add a MTS+MTO route
 [stock_package_type_category](stock_package_type_category/) | 16.0.1.0.1 |  | This module allows to group package types in different categories
