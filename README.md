@@ -51,8 +51,11 @@ addon | version | maintainers | summary
 [stock_location_tray](stock_location_tray/) | 18.0.1.0.0 |  | Organize a location as a matrix of cells
 [stock_location_zone](stock_location_zone/) | 18.0.1.0.0 |  | Classify locations with zones.
 [stock_lot_catalog](stock_lot_catalog/) | 18.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Stock Lot Catalog
+[stock_lot_catalog_sale](stock_lot_catalog_sale/) | 18.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Sale Stock Lot Catalog
+[stock_lot_catalog_warehouse](stock_lot_catalog_warehouse/) | 18.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Stock Lot Catalog Warehouse
 [stock_lot_condition](stock_lot_condition/) | 18.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Stock Lot Condition
 [stock_lot_image](stock_lot_image/) | 18.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Stock Lot Image
+[stock_lot_warehouse](stock_lot_warehouse/) | 18.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Stock Lot Warehouse
 [stock_move_common_dest](stock_move_common_dest/) | 18.0.1.0.1 |  | Adds field for common destination moves
 [stock_move_line_lot_link](stock_move_line_lot_link/) | 18.0.1.0.0 |  | Display Lot/SN column on Detailed Operations to allow navigation.
 [stock_move_line_reference_link](stock_move_line_reference_link/) | 18.0.1.0.0 |  | Add link in stock move line references.
