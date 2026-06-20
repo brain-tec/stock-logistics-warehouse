@@ -3,9 +3,9 @@
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
 {
-    "name": "Product Route Profile",
-    "summary": "Add Route profile concept on product",
-    "version": "18.0.1.1.0",
+    "name": "Product Route Profile - Internal Resupply",
+    "summary": "Add dedicated Internal Routes on products.",
+    "version": "18.0.1.0.0",
     "category": "Warehouse",
     "website": "https://github.com/OCA/stock-logistics-warehouse",
     "author": "Akretion, Odoo Community Association (OCA)",
@@ -14,12 +14,9 @@
     "application": False,
     "installable": True,
     "depends": [
-        "stock",
+        "product_route_profile",
     ],
     "data": [
-        "views/route_profile.xml",
         "views/product_template.xml",
-        "security/ir.model.access.csv",
     ],
-    "post_init_hook": "post_init_hook",
 }
