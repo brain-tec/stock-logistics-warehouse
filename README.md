@@ -37,6 +37,7 @@ addon | version | maintainers | summary
 [stock_inventory](stock_inventory/) | 18.0.1.1.2 |  | Allows to do an easier follow up of the Inventory Adjustments
 [stock_inventory_count_to_zero](stock_inventory_count_to_zero/) | 18.0.1.0.0 |  | Request an inventory count filling the quantities to zero as default
 [stock_inventory_discrepancy](stock_inventory_discrepancy/) | 18.0.1.1.0 |  | Adds the capability to show the discrepancy of every line in an inventory and to block the inventory validation when the discrepancy is over a user defined threshold.
+[stock_inventory_hide_apply_all](stock_inventory_hide_apply_all/) | 18.0.1.0.0 | <a href='https://github.com/smorita7749'><img src='https://github.com/smorita7749.png' width='32' height='32' style='border-radius:50%;' alt='smorita7749'/></a> | Hide the 'Apply All' button on the inventory adjustment list
 [stock_inventory_lockdown](stock_inventory_lockdown/) | 18.0.1.0.1 |  | Lock down stock locations during inventories.
 [stock_inventory_preparation_filter](stock_inventory_preparation_filter/) | 18.0.1.0.0 |  | More filters for inventory adjustments
 [stock_inventory_verification_request](stock_inventory_verification_request/) | 18.0.1.2.0 | <a href='https://github.com/LoisRForgeFlow'><img src='https://github.com/LoisRForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='LoisRForgeFlow'/></a> | Adds the capability to request a Slot Verification when a inventory is Pending to Approve
@@ -51,7 +52,7 @@ addon | version | maintainers | summary
 [stock_location_position](stock_location_position/) | 18.0.1.0.0 |  | Add coordinate attributes on stock location.
 [stock_location_tray](stock_location_tray/) | 18.0.1.0.0 |  | Organize a location as a matrix of cells
 [stock_location_zone](stock_location_zone/) | 18.0.1.0.0 |  | Classify locations with zones.
-[stock_lot_catalog](stock_lot_catalog/) | 18.0.1.0.1 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Stock Lot Catalog
+[stock_lot_catalog](stock_lot_catalog/) | 18.0.1.0.2 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Stock Lot Catalog
 [stock_lot_catalog_condition](stock_lot_catalog_condition/) | 18.0.1.1.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Stock Lot Catalog Condition
 [stock_lot_catalog_price](stock_lot_catalog_price/) | 18.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | StockLot Catalog Price
 [stock_lot_catalog_sale](stock_lot_catalog_sale/) | 18.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Sale Stock Lot Catalog
@@ -59,6 +60,7 @@ addon | version | maintainers | summary
 [stock_lot_condition](stock_lot_condition/) | 18.0.1.1.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Stock Lot Condition
 [stock_lot_image](stock_lot_image/) | 18.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Stock Lot Image
 [stock_lot_list_price](stock_lot_list_price/) | 18.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Stock Lot List Price
+[stock_lot_multi_image](stock_lot_multi_image/) | 18.0.1.0.0 |  | This module implements the possibility to have multiple images for a stock lot
 [stock_lot_warehouse](stock_lot_warehouse/) | 18.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Stock Lot Warehouse
 [stock_move_common_dest](stock_move_common_dest/) | 18.0.1.0.1 |  | Adds field for common destination moves
 [stock_move_line_lot_link](stock_move_line_lot_link/) | 18.0.1.0.0 |  | Display Lot/SN column on Detailed Operations to allow navigation.
@@ -68,6 +70,7 @@ addon | version | maintainers | summary
 [stock_move_packaging_qty](stock_move_packaging_qty/) | 18.0.1.2.1 | <a href='https://github.com/yajo'><img src='https://github.com/yajo.png' width='32' height='32' style='border-radius:50%;' alt='yajo'/></a> <a href='https://github.com/EmilioPascual'><img src='https://github.com/EmilioPascual.png' width='32' height='32' style='border-radius:50%;' alt='EmilioPascual'/></a> <a href='https://github.com/Shide'><img src='https://github.com/Shide.png' width='32' height='32' style='border-radius:50%;' alt='Shide'/></a> | Add packaging fields in the stock moves
 [stock_move_purchase_uom](stock_move_purchase_uom/) | 18.0.1.1.2 |  | Allow to use the purchase UoM in a stock move
 [stock_move_reset_quantity](stock_move_reset_quantity/) | 18.0.1.0.0 |  | Reset quantity to zero
+[stock_mts_mto_rule](stock_mts_mto_rule/) | 18.0.1.0.0 |  | Add a MTS+MTO route
 [stock_package_type_volume](stock_package_type_volume/) | 18.0.1.0.0 |  | Compute volume of a package type
 [stock_packaging_calculator](stock_packaging_calculator/) | 18.0.2.0.0 |  | Compute product quantity to pick by packaging
 [stock_picking_batch_packaging_qty](stock_picking_batch_packaging_qty/) | 18.0.1.0.1 | <a href='https://github.com/EmilioPascual'><img src='https://github.com/EmilioPascual.png' width='32' height='32' style='border-radius:50%;' alt='EmilioPascual'/></a> <a href='https://github.com/rafaelbn'><img src='https://github.com/rafaelbn.png' width='32' height='32' style='border-radius:50%;' alt='rafaelbn'/></a> | Add packaging fields in stock picking batch
@@ -92,12 +95,12 @@ addon | version | maintainers | summary
 [stock_secondary_unit](stock_secondary_unit/) | 18.0.1.0.0 |  | Get product quantities in a secondary unit
 [stock_storage_category_capacity_name](stock_storage_category_capacity_name/) | 18.0.1.0.1 |  | Allows to have a better display name for Stock Storage Category Capacity model
 [stock_valuation_layer_inventory_filter](stock_valuation_layer_inventory_filter/) | 18.0.1.0.1 | <a href='https://github.com/Shide'><img src='https://github.com/Shide.png' width='32' height='32' style='border-radius:50%;' alt='Shide'/></a> <a href='https://github.com/Andrii9090'><img src='https://github.com/Andrii9090.png' width='32' height='32' style='border-radius:50%;' alt='Andrii9090'/></a> | Allows to filter Inventory Adjustments on Stock Valuation Layers
-[stock_vertical_lift](stock_vertical_lift/) | 18.0.1.3.1 |  | Provides the core for integration with Vertical Lifts
-[stock_vertical_lift_empty_tray_check](stock_vertical_lift_empty_tray_check/) | 18.0.1.0.0 |  | Checks if the tray is actually empty.
+[stock_vertical_lift](stock_vertical_lift/) | 18.0.1.4.1 |  | Provides the core for integration with Vertical Lifts
+[stock_vertical_lift_empty_tray_check](stock_vertical_lift_empty_tray_check/) | 18.0.1.1.0 |  | Checks if the tray is actually empty.
 [stock_vertical_lift_packaging_level](stock_vertical_lift_packaging_level/) | 18.0.1.0.0 |  | Provides integration with Vertical Lifts and packaging levels
 [stock_vertical_lift_qty_by_packaging](stock_vertical_lift_qty_by_packaging/) | 18.0.1.0.0 |  | Glue module for `stock_product_qty_by_packaging` and `stock_vertical_lift`.
 [stock_vertical_lift_server_env](stock_vertical_lift_server_env/) | 18.0.1.0.0 |  | Server Environment layer for Vertical Lift
-[stock_vertical_lift_storage_type](stock_vertical_lift_storage_type/) | 18.0.1.0.0 |  | Compatibility layer for storage types on vertical lifts
+[stock_vertical_lift_storage_type](stock_vertical_lift_storage_type/) | 18.0.1.1.0 |  | Compatibility layer for storage types on vertical lifts
 [stock_vlm_mgmt](stock_vlm_mgmt/) | 18.0.1.0.0 | <a href='https://github.com/chienandalu'><img src='https://github.com/chienandalu.png' width='32' height='32' style='border-radius:50%;' alt='chienandalu'/></a> | Light self contained alternative for VLM integrations
 [stock_vlm_mgmt_kardex](stock_vlm_mgmt_kardex/) | 18.0.1.0.0 | <a href='https://github.com/chienandalu'><img src='https://github.com/chienandalu.png' width='32' height='32' style='border-radius:50%;' alt='chienandalu'/></a> | Light alternative for Kardex VLM integrations
 [stock_vlm_mgmt_modula](stock_vlm_mgmt_modula/) | 18.0.1.0.0 | <a href='https://github.com/chienandalu'><img src='https://github.com/chienandalu.png' width='32' height='32' style='border-radius:50%;' alt='chienandalu'/></a> | Light alternative for Modula VLM integrations
