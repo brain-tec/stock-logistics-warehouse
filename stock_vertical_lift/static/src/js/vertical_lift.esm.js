@@ -28,6 +28,11 @@ patch(BarcodeHandlerField.prototype, {
         const barcode = event.detail.barcode;
         const method = SWITCH_BARCODE_METHODS[barcode];
         if (!method) {
+            if (this.props.record.resModel.startsWith("vertical.lift.operation.")) {
+                // Force saving the form to avoid client record being left dirty
+                await this.props.record.update({[this.props.name]: barcode});
+                return this.props.record.save();
+            }
             return super.onBarcodeScanned(event);
         }
         const {resModel, resId} = this.props.record;
@@ -62,27 +67,28 @@ patch(FormController.prototype, {
         super.setup();
         this.busService = useService("bus_service");
         if (this.props.resModel.startsWith("vertical.lift.operation.")) {
+            const onNotification = (payload) => {
+                if (payload.action === "refresh") {
+                    this.vlift_bus_action_refresh(payload.params);
+                }
+            };
             this.busService.addChannel("notify_vertical_lift_screen");
-            this.busService.addEventListener("notification", (notifications) => {
-                notifications.forEach(([channel, message]) => {
-                    if (
-                        channel === "notify_vertical_lift_screen" &&
-                        message.action === "refresh"
-                    ) {
-                        this.vlift_bus_action_refresh(message.params);
-                    }
-                });
+            this.busService.subscribe("notification", onNotification);
+            onWillUnmount(() => {
+                // The refresh remounts the form: without this, every remount
+                // would leave a listener behind that keeps firing reloads.
+                this.busService.unsubscribe("notification", onNotification);
+                this.busService.deleteChannel("notify_vertical_lift_screen");
             });
         }
-
-        onWillUnmount(() => {
-            this.busService.deleteChannel("notify_vertical_lift_screen");
-        });
     },
 
     vlift_bus_action_refresh(params) {
         if (params.id === this.props.resId && params.model === this.props.resModel) {
-            this.model.root.load();
+            this.env.services.action.doAction({
+                type: "ir.actions.client",
+                tag: "soft_reload",
+            });
         }
     },
 });
