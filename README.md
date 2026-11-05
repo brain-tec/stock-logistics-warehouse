@@ -28,9 +28,9 @@ addon | version | maintainers | summary
 [stock_demand_estimate](stock_demand_estimate/) | 19.0.1.1.0 |  | Allows to create demand estimates.
 [stock_demand_estimate_matrix](stock_demand_estimate_matrix/) | 19.0.1.0.0 |  | Allows to create demand estimates.
 [stock_inventory](stock_inventory/) | 19.0.1.1.0 |  | Allows to do an easier follow up of the Inventory Adjustments
-[stock_inventory_discrepancy](stock_inventory_discrepancy/) | 19.0.1.0.0 |  | Adds the capability to show the discrepancy of every line in an inventory and to block the inventory validation when the discrepancy is over a user defined threshold.
+[stock_inventory_discrepancy](stock_inventory_discrepancy/) | 19.0.1.0.1 |  | Adds the capability to show the discrepancy of every line in an inventory and to block the inventory validation when the discrepancy is over a user defined threshold.
 [stock_inventory_justification](stock_inventory_justification/) | 19.0.1.1.0 | <a href='https://github.com/rousseldenis'><img src='https://github.com/rousseldenis.png' width='32' height='32' style='border-radius:50%;' alt='rousseldenis'/></a> <a href='https://github.com/ThomasBinsfeld'><img src='https://github.com/ThomasBinsfeld.png' width='32' height='32' style='border-radius:50%;' alt='ThomasBinsfeld'/></a> | This module allows to set justification on inventories
-[stock_inventory_lockdown](stock_inventory_lockdown/) | 19.0.1.0.0 |  | Lock down stock locations during inventories.
+[stock_inventory_lockdown](stock_inventory_lockdown/) | 19.0.1.0.1 |  | Lock down stock locations during inventories.
 [stock_inventory_lockdown_product](stock_inventory_lockdown_product/) | 19.0.1.0.0 |  | Lock down stock locations during inventories for inventoried products
 [stock_location_is_sublocation](stock_location_is_sublocation/) | 19.0.1.0.0 |  | Add method to check stock location is sublocation
 [stock_location_lockdown](stock_location_lockdown/) | 19.0.1.0.0 |  | Prevent to add stock on locked locations
@@ -44,7 +44,7 @@ addon | version | maintainers | summary
 [stock_picking_volume](stock_picking_volume/) | 19.0.1.0.0 | <a href='https://github.com/lmignon'><img src='https://github.com/lmignon.png' width='32' height='32' style='border-radius:50%;' alt='lmignon'/></a> | Compute volume information on stock moves and pickings
 [stock_putaway_product_template](stock_putaway_product_template/) | 19.0.1.0.0 | <a href='https://github.com/kevinkhao'><img src='https://github.com/kevinkhao.png' width='32' height='32' style='border-radius:50%;' alt='kevinkhao'/></a> <a href='https://github.com/sebastienbeau'><img src='https://github.com/sebastienbeau.png' width='32' height='32' style='border-radius:50%;' alt='sebastienbeau'/></a> | Add product template in putaway strategies from the product view
 [stock_quant_reservation_info](stock_quant_reservation_info/) | 19.0.1.0.0 |  | Allows to see the reserved info of Products
-[stock_secondary_unit](stock_secondary_unit/) | 19.0.1.0.0 |  | Get product quantities in a secondary unit
+[stock_secondary_unit](stock_secondary_unit/) | 19.0.1.0.1 |  | Get product quantities in a secondary unit
 [stock_vlm_mgmt](stock_vlm_mgmt/) | 19.0.1.0.1 | <a href='https://github.com/chienandalu'><img src='https://github.com/chienandalu.png' width='32' height='32' style='border-radius:50%;' alt='chienandalu'/></a> | Light self contained alternative for VLM integrations
 [stock_vlm_mgmt_kardex](stock_vlm_mgmt_kardex/) | 19.0.1.0.0 | <a href='https://github.com/chienandalu'><img src='https://github.com/chienandalu.png' width='32' height='32' style='border-radius:50%;' alt='chienandalu'/></a> | Light alternative for Kardex VLM integrations
 [stock_warehouse_calendar](stock_warehouse_calendar/) | 19.0.1.0.0 | <a href='https://github.com/JordiBForgeFlow'><img src='https://github.com/JordiBForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='JordiBForgeFlow'/></a> | Adds a calendar to the Warehouse
