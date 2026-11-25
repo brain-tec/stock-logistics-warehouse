@@ -16,7 +16,6 @@ class StockMove(models.Model):
                 and move.picking_type_id
                 and move.picking_type_id.use_purchase_uom
                 and purchase_uom
-                and move.product_uom != purchase_uom
                 and not move.origin_returned_move_id
             ):
                 updated_product_uom_qty = move.product_uom._compute_quantity(
@@ -25,7 +24,9 @@ class StockMove(models.Model):
                     rounding_method=move.picking_type_id.purchase_uom_rounding_method,
                 )
                 move.product_uom = move.product_id.uom_po_id
-                move.product_uom_qty = updated_product_uom_qty
+                move.with_context(
+                    do_not_unreserve=True
+                ).product_uom_qty = updated_product_uom_qty
         return moves
 
     @api.onchange("product_id", "picking_type_id")
